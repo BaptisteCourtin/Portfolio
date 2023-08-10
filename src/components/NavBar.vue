@@ -2,6 +2,10 @@
 export default {
   props: ['isDarkTheme']
 }
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
+library.add(faSun, faMoon)
 </script>
 
 <template>
@@ -10,7 +14,7 @@ export default {
       <RouterLink to="/">Accueil</RouterLink>
       <RouterLink to="/themes">Mes Projets</RouterLink>
       <RouterLink to="/parcours">Mon Parcours</RouterLink>
-      <!-- <RouterLink to="/blog">Mon Blog</RouterLink> -->
+      <RouterLink to="/blog">Mon Blog</RouterLink>
 
       <div class="toggle-mode" :class="isDarkTheme">
         <input
@@ -20,8 +24,8 @@ export default {
           @change="$emit('toggle')"
         />
         <label class="toggle" for="toggle">
-          <font-awesome-icon icon="fa-solid fa-sun" class="sun icon" />
-          <font-awesome-icon icon="fa-solid fa-moon" class="moon icon" />
+          <font-awesome-icon icon="fa-sun" class="sun icon" />
+          <font-awesome-icon icon="fa-moon" class="moon icon" />
           <span class="ball"></span>
         </label>
       </div>
