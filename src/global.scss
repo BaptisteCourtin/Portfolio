@@ -1,0 +1,17 @@
+.global-wrapper {
+  background-color: var(--background);
+
+  .wrapper-right-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--blue);
+    min-height: 100vh;
+
+    .global-pages {
+      padding: 2rem;
+      color: var(--color);
+    }
+  }
+}

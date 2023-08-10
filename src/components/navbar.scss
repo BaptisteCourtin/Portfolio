@@ -1,0 +1,91 @@
+.global-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--violet);
+  padding: 2rem;
+
+  min-height: 100vh;
+  min-width: 20rem;
+  max-width: 20rem;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    text-align: center;
+
+    // --- toggle ---
+    .toggle-mode {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
+      input#toggle {
+        display: none;
+      }
+
+      label.toggle {
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        border-radius: 500px;
+        height: 30px;
+        width: 60px;
+        transition: 0.3s ease-in-out;
+
+        .icon {
+          width: 50%;
+          font-size: 20px;
+          text-align: center;
+          z-index: 5;
+        }
+
+        .ball {
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          transition: 0.3s ease-in-out;
+        }
+      }
+
+      /* -- light -- */
+
+      &.light-theme label.toggle {
+        background: white;
+        .sun {
+          color: white;
+        }
+
+        .moon {
+          color: black;
+        }
+
+        .ball {
+          background-color: black;
+        }
+      }
+
+      /* -- dark -- */
+
+      &.dark-theme label.toggle {
+        background: black;
+        .sun {
+          color: white;
+        }
+        .ball {
+          background-color: white;
+          transform: translateX(30px);
+        }
+      }
+    }
+    // --- fin toggle ---
+  }
+}

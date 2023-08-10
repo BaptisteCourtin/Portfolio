@@ -1,0 +1,13 @@
+@import './reset.scss';
+@import './variables.scss';
+
+@import '../global.scss';
+
+@import '../components/navbar.scss';
+@import '../components/footer.scss';
+
+@import '../views/blog.scss';
+@import '../views/home.scss';
+@import '../views/parcours.scss';
+@import '../views/projet.scss';
+@import '../views/themes.scss';

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;300;400;500;600;700;800&display=swap');
+// font-family: 'Handjet', cursive;
+
+// global
+:root {
+  --white: #f5f5f5;
+  --soft-white: #c4d5d8;
+  --black: #131313;
+  --soft-black: #2d3132;
+
+  --gold: #ffd700;
+  --blue: #b9f0fd;
+  --violet: #d976f0;
+
+  // ---
+
+  --font-title: 'Handjet', cursive;
+  --font-text: sans-serif;
+
+  --fs-h1: 5rem;
+  --fw-h1: 800;
+  --fs-h2: 3rem;
+  --fw-h2: 700;
+  --fs-h3: 2.5rem;
+  --fw-h3: 600;
+  --fs-h4: 2rem;
+  --fw-h4: 500;
+}
+
+// light theme
+:root {
+  --background: var(--white);
+  --background-soft: var(--soft-white);
+
+  --color: var(--black);
+  --color-soft: var(--soft-black);
+}
+
+// dark theme
+.dark-theme {
+  --background: var(--black);
+  --background-soft: var(--soft-black);
+
+  --color: var(--white);
+  --color-soft: var(--soft-white);
+}
