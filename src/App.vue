@@ -36,6 +36,6 @@ export default {
       <Navbar :isDarkTheme="isDarkTheme" @toggle="toggle" />
       <!-- la navbar -->
     </div>
-    <Footer></Footer>
+    <Footer class="global-footer"></Footer>
   </div>
 </template>

@@ -1,5 +1,30 @@
 .global-footer {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
   text-align: center;
-  color: var(--gold);
+  color: var(--color);
+  background-color: var(--background-soft);
+
+  padding: 1rem;
+
+  .mesLiens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+
+    a:hover {
+      color: var(--gold);
+    }
+  }
+
+  .myTag {
+    font-size: 0.7rem;
+  }
 }

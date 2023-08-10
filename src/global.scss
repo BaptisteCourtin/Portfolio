@@ -6,12 +6,21 @@
     justify-content: space-between;
     align-items: center;
 
-    background-color: var(--blue);
+    background-color: var(--background);
     min-height: 100vh;
 
     .global-pages {
       padding: 2rem;
       color: var(--color);
+      margin-right: 20rem; // taille navbar
+
+      h1 {
+        text-align: center;
+      }
     }
+  }
+
+  .global-footer {
+    margin-right: 20rem; // taille navbar
   }
 }

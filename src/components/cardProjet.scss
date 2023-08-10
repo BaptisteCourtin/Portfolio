@@ -1,0 +1,186 @@
+.global-cardProjet {
+  position: relative;
+
+  padding: 10px 30px;
+  background-color: transparent;
+
+  color: var(--color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+
+  border: 3px solid var(--color);
+  margin: 5rem;
+
+  transition: 0.5s;
+
+  border-radius: 20px;
+  box-shadow: -4px 4px 2px 0px rgb(0 0 0 / 15%);
+
+  width: 350px;
+  height: 190px;
+
+  &:hover {
+    height: 450px;
+
+    img {
+      height: 250px;
+      width: 250px;
+    }
+
+    .info {
+      transform: translateY(105px);
+    }
+  }
+
+  /* --- */
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 10;
+    top: -50px;
+    transition: 0.5s;
+  }
+
+  .hidden {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* cache la div en dessous */
+
+    .info {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 30px;
+
+      transition: 0.5s;
+      transform: translateY(130px);
+
+      h3 {
+        font-size: 1.6em;
+        font-weight: 600;
+        color: black;
+        line-height: 0.9em;
+        span {
+          font-size: 0.7em;
+          font-weight: 500;
+          opacity: 0.5;
+        }
+      }
+
+      .button {
+        display: flex;
+        gap: 20px;
+
+        button {
+          padding: 10px 30px;
+          border: none;
+          border-radius: 5px;
+          font-size: 1em;
+          font-weight: 500;
+          background: #ff5f95;
+          color: #fff;
+          cursor: pointer;
+
+          &:nth-child(2) {
+            border: 1px solid #999;
+            color: #999;
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  // --- glow ---
+
+  &:nth-child(3n - 2):hover {
+    border: 3px solid var(--gold);
+    box-shadow: 0 0 35px var(--gold);
+
+    color: var(--gold);
+    letter-spacing: 0.3rem;
+  }
+
+  &:nth-child(3n - 1):hover {
+    border: 3px solid var(--blue);
+    box-shadow: 0 0 35px var(--blue);
+
+    color: var(--blue);
+    letter-spacing: 0.3rem;
+  }
+
+  &:nth-child(3n):hover {
+    border: 3px solid var(--violet);
+    box-shadow: 0 0 35px var(--violet);
+
+    color: var(--violet);
+    letter-spacing: 0.3rem;
+  }
+
+  i {
+    position: absolute;
+    inset: 0;
+    display: block;
+
+    &::before {
+      content: '';
+      /* important */
+      position: absolute;
+
+      background-color: var(--background);
+
+      top: -3px;
+      left: 80%;
+
+      width: 10px;
+      height: 4px;
+
+      transform: skewX(-30deg);
+      transition: 0.5s ease-out;
+    }
+
+    &::after {
+      content: '';
+      /* important */
+      position: absolute;
+
+      background-color: var(--background);
+
+      bottom: -3px;
+      right: 80%;
+
+      width: 10px;
+      height: 4px;
+
+      transform: skewX(-30deg);
+      transition: 0.5s;
+    }
+  }
+
+  &:hover i::before {
+    left: 10%;
+    width: 25px;
+  }
+
+  &:hover i::after {
+    right: 10%;
+    width: 25px;
+  }
+}

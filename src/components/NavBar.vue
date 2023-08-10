@@ -1,34 +1,25 @@
 <script>
-export default {
-  props: ['isDarkTheme']
-}
+import ToggleDarkLight from './ToggleDarkLight.vue'
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
-library.add(faSun, faMoon)
+export default {
+  props: ['isDarkTheme'],
+  components: {
+    ToggleDarkLight
+  }
+}
 </script>
 
 <template>
   <div class="global-navbar">
     <nav>
-      <RouterLink to="/">Accueil</RouterLink>
-      <RouterLink to="/themes">Mes Projets</RouterLink>
-      <RouterLink to="/parcours">Mon Parcours</RouterLink>
-      <RouterLink to="/blog">Mon Blog</RouterLink>
-
-      <div class="toggle-mode" :class="isDarkTheme">
-        <input
-          type="checkbox"
-          id="toggle"
-          :checked="isDarkTheme === 'dark-theme' ? 'checked' : false"
-          @change="$emit('toggle')"
-        />
-        <label class="toggle" for="toggle">
-          <font-awesome-icon icon="fa-sun" class="sun icon" />
-          <font-awesome-icon icon="fa-moon" class="moon icon" />
-          <span class="ball"></span>
-        </label>
-      </div>
+      <ul>
+        <li style="--i: 6"><RouterLink to="/">Accueil</RouterLink></li>
+        <li style="--i: 5"><RouterLink to="/themes">Mes Projets</RouterLink></li>
+        <li style="--i: 4"><RouterLink to="/parcours">Mon Parcours</RouterLink></li>
+        <li style="--i: 3"><RouterLink to="/blog">Mon Blog</RouterLink></li>
+        <!-- style="position z-index" -->
+      </ul>
     </nav>
+    <ToggleDarkLight :isDarkTheme="isDarkTheme" @toggle="$emit('toggle')" />
   </div>
 </template>
