@@ -11,6 +11,7 @@
   --gold: #ffd700;
   --blue: #b9f0fd;
   --violet: #d976f0;
+  --green: #09b509;
 
   // ---
 
@@ -43,4 +44,82 @@
 
   --color: var(--white);
   --color-soft: var(--soft-white);
+}
+
+// --- couleur pour les technos ---
+
+.html {
+  background-color: #e54c21;
+}
+.css {
+  background-color: #214ce5;
+}
+.scss {
+  background-color: #ce679a;
+}
+.js {
+  background-color: #f0db4f;
+}
+.ts {
+  background-color: #2d79c7;
+}
+.react {
+  background-color: #61dbfb;
+}
+.angular {
+  background-color: #e23237;
+}
+.vue {
+  background-color: #3fb984;
+}
+.react-native {
+  background-color: #61dbfb;
+}
+.node {
+  background-color: #529f41;
+}
+.express {
+  background-color: #529f41;
+}
+.java {
+  background-color: #0074bd;
+}
+.springboot {
+  background-color: #6db33f;
+}
+.sql {
+  background-color: #da7636;
+}
+.git {
+  background-color: #f05033;
+}
+.workbench {
+  background-color: #edf9fd;
+}
+.pgadmin {
+  background-color: #2f6792;
+}
+.jenkins {
+  background-color: #f0d7b8;
+}
+.sonar {
+  background-color: #499cd2;
+}
+.aws {
+  background-color: #ff8e04;
+}
+.google-cloud {
+  background-color: #fbbc05;
+}
+.jira {
+  background-color: #2684ff;
+}
+.figma {
+  background-color: #a359ff;
+}
+.vscode {
+  background-color: #1389d2;
+}
+.eclipse {
+  background-color: #2c2255;
 }

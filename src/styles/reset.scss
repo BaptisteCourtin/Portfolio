@@ -74,6 +74,14 @@ table {
   border-spacing: 0;
 }
 
+// ---
+
+.ICI {
+  font-weight: 800;
+  color: var(--gold);
+  text-shadow: 0 0 0.5rem var(--color);
+}
+
 /* --- */
 
 @media (prefers-reduced-motion: reduce) {

@@ -44,6 +44,11 @@
 
           letter-spacing: 0.05em;
           transition: 0.5s;
+
+          &.router-link-active {
+            color: white;
+            text-shadow: 0 0 1rem var(--blue);
+          }
         }
 
         &:hover {

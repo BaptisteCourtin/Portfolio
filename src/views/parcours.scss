@@ -1,3 +1,44 @@
 .global-parcours {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+  text-align: center;
+  width: 100%;
+
+  .container-xp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    border: 2px solid var(--gold);
+    padding: 1rem;
+    border-radius: 20px;
+
+    ul {
+      background-color: var(--green);
+      border-radius: 20px;
+      padding: 0.5rem;
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+
+      li {
+        text-shadow:
+          0 0 0.5rem var(--background),
+          0 0 0.7rem var(--background),
+          0 0 0.9rem var(--background);
+        padding: 0.5rem;
+        border-radius: 10px;
+      }
+    }
+  }
 }

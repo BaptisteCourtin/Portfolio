@@ -1,3 +1,62 @@
 .global-home {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+
+  width: 100%;
+
+  .moi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: right;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      .name {
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-style: italic;
+      }
+
+      .dev {
+        text-decoration: underline;
+        text-shadow:
+          0 0 0.5rem var(--violet),
+          0 0 0.75rem var(--gold),
+          0 0 1rem var(--blue);
+        font-weight: 800;
+      }
+
+      .fa-arrow-right {
+        font-size: 3rem;
+        transform: translateY(0.75rem);
+      }
+    }
+
+    img {
+      width: 200px;
+      border-radius: 20px;
+    }
+  }
+
+  .quete {
+    line-height: 1.7rem;
+
+    p {
+      margin-bottom: 2rem;
+      h4 {
+        display: inline;
+      }
+    }
+  }
 }
