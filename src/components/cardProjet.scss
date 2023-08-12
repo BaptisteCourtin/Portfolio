@@ -3,43 +3,25 @@
 
   padding: 10px 30px;
   background-color: transparent;
-
   color: var(--color);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 2rem;
 
   border: 3px solid var(--color);
-  margin: 5rem;
-
-  transition: 0.5s;
-
   border-radius: 20px;
   box-shadow: -4px 4px 2px 0px rgb(0 0 0 / 15%);
 
   width: 350px;
-  height: 190px;
+  height: 170px;
 
-  &:hover {
-    height: 450px;
+  transition: 0.5s;
 
-    img {
-      height: 250px;
-      width: 250px;
-    }
-
-    .info {
-      transform: translateY(105px);
-    }
-  }
-
-  /* --- */
+  /* --- card ki se deplie --- */
 
   img {
     width: 150px;
     height: 150px;
     border-radius: 20px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
+    background-color: var(--background-soft);
 
     position: absolute;
     left: 50%;
@@ -51,7 +33,9 @@
   }
 
   .hidden {
-    position: absolute;
+    position: relative;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -59,6 +43,9 @@
 
     .info {
       position: absolute;
+      top: 0;
+      left: 0;
+
       width: 100%;
       height: 100%;
 
@@ -67,71 +54,82 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      gap: 30px;
+      gap: 1rem;
 
       transition: 0.5s;
-      transform: translateY(130px);
+      transform: translateY(90px);
 
-      h3 {
-        font-size: 1.6em;
-        font-weight: 600;
-        color: black;
-        line-height: 0.9em;
-        span {
-          font-size: 0.7em;
-          font-weight: 500;
-          opacity: 0.5;
+      .text {
+        padding: 0.5rem;
+
+        h4 {
+          line-height: 4.5rem;
+          transition: 0.5s;
+        }
+
+        p {
+          // pour mettre ... après la 4ème ligne
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
         }
       }
 
-      .button {
+      ul {
+        border-radius: 20px;
+
         display: flex;
-        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
 
-        button {
-          padding: 10px 30px;
-          border: none;
-          border-radius: 5px;
-          font-size: 1em;
-          font-weight: 500;
-          background: #ff5f95;
-          color: #fff;
-          cursor: pointer;
-
-          &:nth-child(2) {
-            border: 1px solid #999;
-            color: #999;
-            background: #fff;
-          }
+        li {
+          background-color: var(--color);
+          color: var(--background);
+          padding: 0.5rem;
+          border-radius: 10px;
         }
       }
     }
   }
 
+  &:hover {
+    height: 450px;
+
+    img {
+      height: 250px;
+      width: 250px;
+    }
+
+    .info {
+      transform: translateY(70px);
+    }
+  }
+
   // --- glow ---
+
+  &:hover {
+    h4 {
+      letter-spacing: 0.2rem;
+    }
+  }
 
   &:nth-child(3n - 2):hover {
     border: 3px solid var(--gold);
     box-shadow: 0 0 35px var(--gold);
-
-    color: var(--gold);
-    letter-spacing: 0.3rem;
   }
 
   &:nth-child(3n - 1):hover {
     border: 3px solid var(--blue);
     box-shadow: 0 0 35px var(--blue);
-
-    color: var(--blue);
-    letter-spacing: 0.3rem;
   }
 
   &:nth-child(3n):hover {
     border: 3px solid var(--violet);
     box-shadow: 0 0 35px var(--violet);
-
-    color: var(--violet);
-    letter-spacing: 0.3rem;
   }
 
   i {
@@ -141,18 +139,17 @@
 
     &::before {
       content: '';
-      /* important */
       position: absolute;
 
       background-color: var(--background);
 
-      top: -3px;
-      left: 80%;
+      top: 80%;
+      left: -3px;
 
-      width: 10px;
-      height: 4px;
+      height: 1rem;
+      width: 4px;
 
-      transform: skewX(-30deg);
+      transform: skewY(-30deg);
       transition: 0.5s ease-out;
     }
 
@@ -163,24 +160,24 @@
 
       background-color: var(--background);
 
-      bottom: -3px;
-      right: 80%;
+      bottom: 80%;
+      right: -3px;
 
-      width: 10px;
-      height: 4px;
+      height: 1rem;
+      width: 4px;
 
-      transform: skewX(-30deg);
+      transform: skewY(-30deg);
       transition: 0.5s;
     }
   }
 
   &:hover i::before {
-    left: 10%;
-    width: 25px;
+    top: 10%;
+    height: 2rem;
   }
 
   &:hover i::after {
-    right: 10%;
-    width: 25px;
+    bottom: 10%;
+    height: 2rem;
   }
 }

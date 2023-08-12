@@ -1,7 +1,14 @@
-.global-themes {
+.global-theme {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 
-  .wrapper-card-project {
+  text-align: center;
+  width: 100%;
+
+  section {
     display: flex;
     justify-content: center;
     align-items: center;

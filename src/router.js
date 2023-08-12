@@ -18,7 +18,7 @@ const router = createRouter({
       component: () => import('./views/ThemesView.vue')
     },
     {
-      path: '/projet',
+      path: '/projet/:id',
       name: 'projet',
       component: () => import('./views/ProjetView.vue')
     },
@@ -32,6 +32,11 @@ const router = createRouter({
       name: 'blog',
       component: () => import('./views/BlogView.vue')
     }
+    // {
+    //   path: '/:catchAll(.*)',
+    //   name: 'NotFound',
+    //   component: NotFount
+    // }
   ]
 })
 

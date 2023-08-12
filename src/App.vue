@@ -9,7 +9,7 @@ import Footer from './components/Footer.vue'
 export default {
   data() {
     return {
-      isDarkTheme: 'light-theme'
+      isDarkTheme: 'dark-theme'
     }
   },
   components: {

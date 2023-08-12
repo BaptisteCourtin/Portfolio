@@ -8,6 +8,10 @@
   text-align: center;
   width: 100%;
 
+  h2 {
+    text-decoration: underline;
+  }
+
   .container-xp {
     display: flex;
     flex-direction: column;
@@ -15,6 +19,7 @@
     align-items: center;
     gap: 0.5rem;
 
+    background-color: var(--background-soft);
     border: 2px solid var(--gold);
     padding: 1rem;
     border-radius: 20px;

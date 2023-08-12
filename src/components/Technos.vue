@@ -37,7 +37,7 @@
     </div>
 
     <div class="cadre">
-      <h4>Je connais ces outils :</h4>
+      <h4>Je connais ces outils</h4>
       <ul>
         <li>
           Git / Github / Gitlab<img src="../assets/logos/git.png" alt="logo" /><img

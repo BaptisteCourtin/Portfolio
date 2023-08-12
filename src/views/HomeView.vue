@@ -24,7 +24,10 @@ library.add(faArrowRight)
         </p>
         <p>c'est moi là <font-awesome-icon icon="fa-solid fa-arrow-right" /></p>
       </div>
-      <img src="../assets/moi/photo profil.jpg" alt="moi en photo" />
+
+      <div class="box-tourne">
+        <img src="../assets/moi/photo profil.jpg" alt="moi en photo" />
+      </div>
     </div>
 
     <div class="quete">
@@ -39,6 +42,8 @@ library.add(faArrowRight)
       </a>
       c'est mon CV
     </div>
+
+    <span class="trait"></span>
 
     <Technos />
 

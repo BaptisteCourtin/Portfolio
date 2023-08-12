@@ -1,9 +1,15 @@
 <script>
+import { PROJETS } from '../assets/projets'
 import CardProjet from '../components/CardProjet.vue'
 
 export default {
   components: {
     CardProjet
+  },
+  data() {
+    return {
+      PROJETS: PROJETS
+    }
   }
 }
 </script>
@@ -11,13 +17,9 @@ export default {
 <template>
   <div class="global-theme">
     <h1>La page thème - avec des cards de projets</h1>
+
     <section class="wrapper-card-project">
-      <CardProjet />
-      <CardProjet />
-      <CardProjet />
-      <CardProjet />
-      <CardProjet />
-      <CardProjet />
+      <CardProjet v-for="prj in PROJETS" :key="prj.id" message="hello" :prj="prj" />
     </section>
   </div>
 </template>

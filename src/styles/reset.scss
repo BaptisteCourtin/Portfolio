@@ -28,6 +28,18 @@ body {
   font-family: var(--font-text);
 }
 
+p {
+  line-height: 1.3rem;
+}
+
+span.trait {
+  width: 40%;
+  height: 0.5rem;
+  border-radius: 500px;
+  background-color: var(--color-soft);
+  margin: 2rem 0;
+}
+
 h1,
 h2,
 h3,

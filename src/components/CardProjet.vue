@@ -1,20 +1,36 @@
+<script>
+export default {
+  props: {
+    prj: Object,
+    message: String
+  }
+}
+</script>
+
 <template>
-  <div class="global-cardProjet">
+  <RouterLink :to="{ name: 'projet', params: { id: prj.id } }" class="global-cardProjet">
     <!--  -->
-    <img src="../assets/logo.svg" alt="img-projet" />
+
+    <img src="{{prj.mainImage}}" alt="img-projet" />
     <div class="hidden">
       <div class="info">
-        <div class="details">
-          <h3>Frythedragon<br /><span>Developpeur web</span></h3>
+        <div class="text">
+          <h4>{{ prj.titre }}</h4>
+          <p>{{ prj.description }}</p>
         </div>
-
-        <div class="button">
-          <button>Follow</button>
-          <button>Message</button>
-        </div>
+        <ul>
+          <section
+            class="wrapper-card-project"
+            v-for="techno in prj.technosPrincipales"
+            :key="prj.id"
+          >
+            <li>{{ techno }}</li>
+          </section>
+        </ul>
       </div>
     </div>
+
     <!--  -->
     <i></i>
-  </div>
+  </RouterLink>
 </template>
