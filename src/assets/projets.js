@@ -20,7 +20,7 @@ export const PROJETS = [
         title: 'redirection',
         description:
           "on est redirigé sur les autres pages en cliquant sur le images de la page d'accueil ou dans la navbar.",
-        image: './assets/WCS-spa/accueilNavbar.png'
+        image: './assets/WCS-spa/menu.png'
       },
       {
         title: 'responsif',
@@ -41,7 +41,6 @@ export const PROJETS = [
       }
     ],
 
-    autresImages: [],
     video: '',
     lienSite: 'https://baptistecourtin.github.io/Projet1-SPA/pages/',
     lienGithub: 'https://github.com/BaptisteCourtin/Projet1-SPA'
@@ -69,12 +68,12 @@ export const PROJETS = [
         title: 'redirection',
         description:
           "on est redirigé sur les autres pages en cliquant sur les buttons de la page d'accueil ou dans la navbar.",
-        image: './assets/blindtest/menu.png'
+        image: './assets/WCS-blindtest/menu.png'
       },
       {
         title: 'recherche',
         description: 'On peut rechercher les titres selon plusieurs filtres',
-        image: './assets/blindtest/recherche.png'
+        image: './assets/WCS-blindtest/recherche.png'
       },
       {
         title: 'jouer au DJ',
@@ -84,17 +83,16 @@ export const PROJETS = [
       {
         title: 'des filtres pour jouer au blindtest',
         description: 'On peut choisir le type de musiques ainsi que la décennie',
-        image: './assets/blindtest/choix.png'
+        image: './assets/WCS-blindtest/choix.png'
       },
       {
         title: 'tester ces connaissances',
         description:
           "Jouer ! Avec 4 propositions disposées de manière aléatoire et un timer. Si notre réponse est fausse, la bonne apparait. Notre score s'affiche en fin de partie.",
-        image: './assets/blindtest/test.png'
+        image: './assets/WCS-blindtest/test.png'
       }
     ],
 
-    autresImages: [],
     video: '',
     lienSite: '',
     lienGithub: 'https://github.com/BaptisteCourtin/Blindtest-projet2-WCS-'
@@ -177,7 +175,6 @@ export const PROJETS = [
       }
     ],
 
-    autresImages: [],
     video: '',
     lienSite: 'http://vps-d5babf40.vps.ovh.net:5006/',
     lienGithub: 'https://github.com/BaptisteCourtin/babyplace'
@@ -212,7 +209,6 @@ export const PROJETS = [
       }
     ],
 
-    autresImages: [],
     video: '',
     lienSite: '',
     lienGithub: ''
@@ -246,7 +242,6 @@ export const PROJETS = [
       }
     ],
 
-    autresImages: [],
     video: '',
     lienSite: '',
     lienGithub: ''
@@ -290,7 +285,6 @@ export const PROJETS = [
       }
     ],
 
-    autresImages: [],
     video: '',
     lienSite: '',
     lienGithub: ''
