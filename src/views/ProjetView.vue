@@ -32,7 +32,7 @@ export default {
         <p v-if="myPrj.organisation">organisation : {{ myPrj.organisation }}</p>
         <p>objectif : {{ myPrj.objectif }}</p>
       </div>
-      <img :src="'../../public/' + myPrj.mainImage" alt="img-projet" />
+      <img :src="'/' + myPrj.mainImage" alt="img-projet" />
     </section>
 
     <ul>
@@ -46,7 +46,7 @@ export default {
       <div v-for="func in myPrj.fonctions">
         <h4>{{ func.title }}</h4>
         <p>{{ func.description }}</p>
-        <img :src="'../../public/' + func.image" alt="img-func" />
+        <img :src="'/' + func.image" alt="img-func" />
       </div>
     </section>
 
