@@ -10,8 +10,9 @@
 
   section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 7rem 5rem;
   }
 }

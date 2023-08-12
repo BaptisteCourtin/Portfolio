@@ -16,14 +16,14 @@
     gap: 0.5rem;
 
     li {
-      background-color: var(--background);
+      background-color: var(--background-soft);
       padding: 0.5rem;
       border-radius: 10px;
 
       img {
         margin-left: 0.5rem;
         height: 2rem;
-        filter: drop-shadow(0 0 0.2rem var(--color));
+        filter: drop-shadow(0 0 0.05rem var(--color));
       }
     }
   }

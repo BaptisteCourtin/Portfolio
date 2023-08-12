@@ -1,3 +1,10 @@
 .global-projet {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+
+  text-align: center;
+  width: 100%;
 }

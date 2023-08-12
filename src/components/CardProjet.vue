@@ -11,7 +11,7 @@ export default {
   <RouterLink :to="{ name: 'projet', params: { id: prj.id } }" class="global-cardProjet">
     <!--  -->
 
-    <img src="{{prj.mainImage}}" alt="img-projet" />
+    <img :src="prj.mainImage" alt="img-projet" />
     <div class="hidden">
       <div class="info">
         <div class="text">
