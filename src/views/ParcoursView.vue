@@ -20,21 +20,21 @@ export default {
       <div class="container-xp">
         <p class="date">février 2023 - août 2023</p>
         <ul>
-          <li class="angular">Angular</li>
-          <li class="ts">TypeScript</li>
-          <li class="scss">SCSS</li>
-          <li class="springboot">Java Springboot</li>
-          <li class="sql">SQl</li>
+          <li class="Angular">Angular</li>
+          <li class="TypeScript">TypeScript</li>
+          <li class="SCSS">SCSS</li>
+          <li class="Springboot">Java Springboot</li>
+          <li class="SQL">SQL</li>
 
-          <li class="git">Git / Gitlab</li>
-          <li class="pgadmin">PgAdmin</li>
-          <li class="jenkins">Jenkins</li>
-          <li class="sonar">SonarQube</li>
+          <li class="Git">Git / Gitlab</li>
+          <li class="PgAdmin">PgAdmin</li>
+          <li class="Jenkins">Jenkins</li>
+          <li class="SonarQube">SonarQube</li>
 
-          <li class="jira">Jira</li>
-          <li class="figma">Figma</li>
-          <li class="vscode">VSCode</li>
-          <li class="eclipse">Eclipse</li>
+          <li class="Jira">Jira</li>
+          <li class="Figma">Figma</li>
+          <li class="VSCode">VSCode</li>
+          <li class="Eclipse">Eclipse</li>
         </ul>
         <p>
           Durant ce stage j'ai contribué à créer le site vitrine des stages. Le but est de pouvoir
@@ -68,25 +68,25 @@ export default {
       <div class="container-xp">
         <p class="date">septembre 2022 - février 2023</p>
         <ul>
-          <li class="html">HTML</li>
-          <li class="css">CSS</li>
-          <li class="js">JavaScript</li>
-          <li class="react">React</li>
-          <li class="scss">SCSS</li>
-          <li class="react-native">React Native</li>
+          <li class="HTML">HTML</li>
+          <li class="CSS">CSS</li>
+          <li class="JavaScript">JavaScript</li>
+          <li class="React">React</li>
+          <li class="SCSS">SCSS</li>
+          <li class="React-Native">React Native</li>
 
-          <li class="git">Git / Gitlab</li>
-          <li class="node">Node.js</li>
-          <li class="express">Express</li>
-          <li class="sql">SQL</li>
-          <li class="workbench">MySQLWorkbench</li>
-          <li class="aws">AWS</li>
-          <li class="google-cloud">Google Cloud</li>
+          <li class="Git">Git / Gitlab</li>
+          <li class="NodeJS">Node.js</li>
+          <li class="Express">Express</li>
+          <li class="SQL">SQL</li>
+          <li class="MySQLWorkbench">MySQLWorkbench</li>
+          <li class="AWS">AWS</li>
+          <li class="Google-Cloud">Google Cloud</li>
 
-          <li class="figma">Figma</li>
-          <li class="jira">Jira</li>
+          <li class="Figma">Figma</li>
+          <li class="Jira">Jira</li>
 
-          <li class="vscode">VSCode</li>
+          <li class="VSCode">VSCode</li>
         </ul>
         <p>
           La formation que j'ai suivi pour devenir développeur web full-stack. On y apprent à coder,

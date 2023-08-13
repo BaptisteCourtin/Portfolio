@@ -23,40 +23,57 @@ export default {
 
 <template>
   <div class="global-projet" v-if="myPrj">
-    <section>
-      <div>
-        <h1>{{ myPrj.titre }}</h1>
-        <p>{{ myPrj.description }}</p>
-        <p>taille de léquipe : {{ myPrj.tailleEquipe }}</p>
-        <p>temps : {{ myPrj.temps }}</p>
-        <p v-if="myPrj.organisation">organisation : {{ myPrj.organisation }}</p>
-        <p>objectif : {{ myPrj.objectif }}</p>
+    <h1>{{ myPrj.titre }}</h1>
+    <section class="global">
+      <div class="text">
+        <p class="main-desc">{{ myPrj.description }}</p>
+        <p><span>Taille de l'équipe :</span> {{ myPrj.tailleEquipe }}</p>
+        <p><span>Temps :</span> {{ myPrj.temps }}</p>
+        <p v-if="myPrj.organisation"><span>Organisation :</span> {{ myPrj.organisation }}</p>
+        <p><span>Objectif :</span> {{ myPrj.objectif }}</p>
       </div>
       <img :src="'/' + myPrj.mainImage" alt="img-projet" />
     </section>
 
+    <span class="trait"></span>
+
     <ul>
-      <li v-for="techno in myPrj.technos">{{ techno }}</li>
+      <li v-for="techno in myPrj.technos" :class="techno">{{ techno }}</li>
     </ul>
 
-    <section>
-      <p v-if="myPrj.gfait">
-        ce que j'ai fait (et dont je vais parler par la suite) : {{ myPrj.gfait }}
+    <span class="trait"></span>
+
+    <section class="gfe">
+      <p v-if="myPrj.gfait" class="myJob">
+        <span>Ce que j'ai fait et dont je vais parler par la suite :</span> {{ myPrj.gfait }}
       </p>
-      <div v-for="func in myPrj.fonctions">
-        <h4>{{ func.title }}</h4>
-        <p>{{ func.description }}</p>
-        <img :src="'/' + func.image" alt="img-func" />
+      <div v-for="func in myPrj.fonctions" class="full-container-func">
+        <div class="container-func">
+          <div class="func-text">
+            <h4>{{ func.title }}</h4>
+            <p>{{ func.description }}</p>
+          </div>
+          <img v-if="func.image" :src="'/' + func.image" alt="img-func" />
+        </div>
+        <div>
+          <span class="points">---</span>
+        </div>
       </div>
     </section>
 
-    <section>
-      <a v-if="myPrj.lienSite" href="{{myPrj.lienSite}}" target="_blank"
-        >Le lien vers le site en ligne</a
-      >
-      <a v-if="myPrj.lienGithub" href="{{myPrj.lienGithub}}" target="_blank"
-        >Le lien vers le repo Github</a
-      >
+    <span class="trait"></span>
+
+    <section class="liens">
+      <p>
+        Le<a v-if="myPrj.lienSite" :href="myPrj.lienSite" target="_blank" class="ICI"> lien</a> vers
+        le site en ligne
+      </p>
+
+      <p>
+        Le
+        <a v-if="myPrj.lienGithub" :href="myPrj.lienGithub" target="_blank" class="ICI"> lien</a>
+        vers le repo Github
+      </p>
     </section>
   </div>
 </template>

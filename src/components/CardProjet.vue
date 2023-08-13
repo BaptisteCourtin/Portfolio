@@ -24,7 +24,7 @@ export default {
             v-for="techno in prj.technosPrincipales"
             :key="prj.id"
           >
-            <li>{{ techno }}</li>
+            <li :class="techno">{{ techno }}</li>
           </section>
         </ul>
       </div>

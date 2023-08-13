@@ -16,7 +16,7 @@ export default {
 
 <template>
   <div class="global-theme">
-    <h1>La page thème - avec des cards de projets</h1>
+    <h1>Mes Projets</h1>
 
     <section class="wrapper-card-project">
       <CardProjet v-for="prj in PROJETS" :key="prj.id" message="hello" :prj="prj" />

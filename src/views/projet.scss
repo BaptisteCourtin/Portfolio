@@ -5,6 +5,126 @@
   align-items: center;
   gap: 5rem;
 
-  text-align: center;
   width: 100%;
+
+  p {
+    span {
+      text-decoration: underline;
+      font-size: 1.1rem;
+    }
+  }
+
+  .global {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 0.5rem;
+
+      max-width: 50%;
+
+      p {
+        &.main-desc {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+
+    img {
+      max-width: 250px;
+      border-radius: 10px;
+    }
+  }
+
+  ul {
+    border-radius: 20px;
+    background-color: var(--background-soft);
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    li {
+      text-shadow:
+        0 0 0.5rem var(--background),
+        0 0 0.7rem var(--background),
+        0 0 0.9rem var(--background);
+      padding: 0.5rem;
+      border-radius: 10px;
+      font-weight: 500;
+      border: 1px solid var(--background);
+    }
+  }
+
+  .gfe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    max-width: 1300px;
+
+    .full-container-func {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      width: 100%;
+
+      .container-func {
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+
+        .func-text {
+          justify-self: flex-start;
+          align-self: center;
+
+          h4 {
+            text-decoration: underline;
+          }
+        }
+
+        img {
+          max-width: 100%;
+          max-height: 500px;
+          object-fit: contain;
+          justify-self: center;
+          justify-self: center;
+          align-self: center;
+        }
+      }
+
+      .points {
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.5rem;
+      }
+    }
+  }
+
+  .liens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
 }

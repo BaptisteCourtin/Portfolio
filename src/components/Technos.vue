@@ -46,6 +46,7 @@
           /><img src="../assets/logos/gitlab.png" alt="logo" />
         </li>
         <li>MySQLWorkbench<img src="../assets/logos/workbench.png" alt="logo" /></li>
+        <li>PostgreSQL<img src="../assets/logos/pgadmin.png" alt="logo" /></li>
         <li>PgAdmin<img src="../assets/logos/pgadmin.png" alt="logo" /></li>
         <li>jenkins<img src="../assets/logos/jenkins.png" alt="logo" /></li>
         <li>SonarQube<img src="../assets/logos/sonar.png" alt="logo" /></li>

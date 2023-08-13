@@ -25,9 +25,10 @@
     border-radius: 20px;
 
     ul {
-      background-color: var(--green);
       border-radius: 20px;
-      padding: 0.5rem;
+      border: 3px solid var(--background);
+      padding: 1rem;
+      margin: 1rem;
 
       display: flex;
       flex-direction: row;
@@ -43,6 +44,8 @@
           0 0 0.9rem var(--background);
         padding: 0.5rem;
         border-radius: 10px;
+        font-weight: 500;
+        border: 1px solid var(--background);
       }
     }
   }

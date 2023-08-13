@@ -32,7 +32,7 @@ library.add(faArrowRight)
 
     <div class="quete">
       <p>
-      Actuellement en quête d'un <h4>CDI</h4> à partir du 1er septembre 2024, ou d'une <h4>alternance (contrat de professionalisation)</h4> de
+      Actuellement en quête d'un <h4>CDI</h4> à partir du 1er septembre 2023, ou d'une <h4>alternance (contrat de professionalisation)</h4> de
       développeur web (full stack) à partir du 18 septembre 2023, dans la région Nantaise. </p>
       <a
         href="https://drive.google.com/file/d/13VghsOAlfdumM_xno9FbPUwlhvSpIX-z/view?usp=sharing"
