@@ -75,8 +75,6 @@
     align-items: center;
     gap: 2rem;
 
-    max-width: 1300px;
-
     .full-container-func {
       display: flex;
       flex-direction: column;
@@ -116,6 +114,12 @@
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: 0.5rem;
+      }
+
+      &:last-child {
+        .points {
+          display: none;
+        }
       }
     }
   }

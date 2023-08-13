@@ -64,14 +64,13 @@ export default {
     <span class="trait"></span>
 
     <section class="liens">
-      <p>
-        Le<a v-if="myPrj.lienSite" :href="myPrj.lienSite" target="_blank" class="ICI"> lien</a> vers
-        le site en ligne
+      <p v-if="myPrj.lienSite">
+        Le<a :href="myPrj.lienSite" target="_blank" class="ICI"> lien</a> vers le site en ligne
       </p>
 
-      <p>
+      <p v-if="myPrj.lienGithub">
         Le
-        <a v-if="myPrj.lienGithub" :href="myPrj.lienGithub" target="_blank" class="ICI"> lien</a>
+        <a :href="myPrj.lienGithub" target="_blank" class="ICI"> lien</a>
         vers le repo Github
       </p>
     </section>
