@@ -61,7 +61,7 @@ export default {
       </div>
     </section>
 
-    <span class="trait"></span>
+    <span class="trait" v-if="myPrj.lienSite || myPrj.lienGithub"></span>
 
     <section class="liens">
       <p v-if="myPrj.lienSite">

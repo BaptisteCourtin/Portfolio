@@ -50,7 +50,8 @@ export const PROJETS = [
   {
     id: 2,
     titre: 'Blindtest',
-    description: 'Deuxième projet réalisé durant ma formation à la Wild Code School.',
+    description:
+      'Deuxième projet réalisé durant ma formation à la Wild Code School. Premier projet avec React.',
     technosPrincipales: ['React', 'JavaScript', 'CSS'],
 
     tailleEquipe: '5',
@@ -104,7 +105,8 @@ export const PROJETS = [
   {
     id: 3,
     titre: 'Babyplace',
-    description: 'troisième et dernier projet réalisé durant ma formation à la Wild Code School.',
+    description:
+      "troisième et dernier projet réalisé durant ma formation à la Wild Code School. Création d'un site full-stack ",
     technosPrincipales: ['React', 'JavaScript', 'SCSS', 'Express', 'SQL'],
 
     tailleEquipe: '4',
@@ -281,7 +283,7 @@ export const PROJETS = [
     id: 6,
     titre: 'Site Vitrine des stages',
     description:
-      'création du site pour présenter les projets des stagiaires aux clients et aux futurs stagiaires.',
+      'Création du site pour présenter les projets des stagiaires aux clients et aux futurs stagiaires.',
     technosPrincipales: ['Angular', 'JavaScript', 'SCSS', 'Java Springboot', 'SQL'],
 
     tailleEquipe:
@@ -314,73 +316,80 @@ export const PROJETS = [
         title: 'Présenter Aubay',
         description:
           "Une petite présentation de l'entreprise est faite sur la page d'accueil. Avec ses valeurs et engagements.",
-        image: './assets/Aubay-SVS/.png'
+        image: './assets/Aubay-SVS/accueil.png'
       },
       {
         title: 'Filtrer',
         description:
-          'Filtrer les projets selon leur thème et activité. Puis on clique dessus pour aller les voir plus en détail.',
-        image: './assets/Aubay-SVS/.png'
+          'Filtrer les projets selon leur thème et activité en cliquant sur les petits chips. Puis on clique dessus pour aller les voir plus en détail.',
+        image: './assets/Aubay-SVS/filtres.png'
       },
       {
         title: 'Attente',
         description:
           "Pendant le chargement des éléments nécéssaires, des barres d'attente tourne pour nous dire que ça arrive.",
-        image: './assets/Aubay-SVS/.png'
+        image: './assets/Aubay-SVS/charge.png'
+      },
+      {
+        title: 'Dark mode',
+        description:
+          'Un bouton présent dans la barre de navigation sert à changer le thème de couleur. Quand on arrive sur le site, le thème est en light, puis on peut le changer en dark mode',
+        image: './assets/Aubay-SVS/dark.png'
       },
       {
         title: 'Contacter Aubay',
         description:
           'Un formulaire de contact est disponible avec plusieurs possibilités de motif. On y rentre son e-mail, un texte et on envoie.',
-        image: './assets/Aubay-SVS/.png'
-      },
-      {
-        title: 'Expoter en PDF',
-        description:
-          "En bas de la page de chaque projet se trouve un bouton pour exporter les projet en pdf. On y retrouve tout ce que l'on a sur la page projet. Le lien reste cliquable sur le PDF",
-        image: './assets/Aubay-SVS/.png'
+        image: './assets/Aubay-SVS/contact.png'
       },
       {
         title: 'Partager le projet',
         description:
-          "Un autre bouton est disponible pour copier l'url dans le presse papier. Il suffit de faire un ctrl+V et c'est partagé.",
-        image: './assets/Aubay-SVS/.png'
+          "En bas de la page de chaque projet se trouve un bouton est disponible pour copier l'url dans le presse papier. Il suffit de faire un ctrl+V et c'est partagé.",
+        image: './assets/Aubay-SVS/lien.png'
       },
+      {
+        title: 'Expoter en PDF',
+        description:
+          "Un autre bouton est présent pour exporter les projet en pdf. On y retrouve tout ce que l'on a sur la page projet. Le lien reste cliquable sur le PDF",
+        image: './assets/Aubay-SVS/pdf.png'
+      },
+
       {
         title: 'La partie admin',
         description:
           "Nous pouvons y voir des projets non visibles par les visiteurs lambdas. Cette partie permet aussi d'administrer tout le site.",
-        image: './assets/Aubay-SVS/.png'
+        image: './assets/Aubay-SVS/admin.png'
       },
       {
         title: 'Administrer les thèmes et activités.',
         description:
           "Un petit formulaire est disponible pour ajouter ou modifier l'un de ces élements. On y entre les informations nécessaire et on enregistre",
-        image: './assets/Aubay-SVS/.png'
+        image: './assets/Aubay-SVS/adminTheme.png'
       },
       {
         title: 'Administrer les projets',
         description:
           'Le formulaire étant assez grand, il est visuellement divisé en plusieurs parties. On y entre les informations dont une image qui sera converti en base64, et on enregistre le tout.',
-        image: './assets/Aubay-SVS/.png'
+        image: './assets/Aubay-SVS/adminProjet.png'
       },
       {
         title: 'Supprimer',
         description:
           "Pour éviter tout miss-click, quand on veut supprimer un thème, une activité ou un projet, un dialogue apparait et nous demande de rentrer des informations pour être sûr que c'est ce que l'on veut.",
-        image: './assets/Aubay-SVS/.png'
+        image: './assets/Aubay-SVS/supp.png'
       },
       {
         title: "L'historique",
         description:
           "Les projets ont plusieurs versions. Il fallait donc pouvoir switcher de version en étant sur le projet ainsi que choisir qu'elle version serait montré en premier et afficher seulement celle-ci lors de la recherche de projet.",
-        image: './assets/Aubay-SVS/.png'
+        image: './assets/Aubay-SVS/historique.png'
       },
       {
         title: '404 ?',
         description:
           "Dans le cas où l'url entré n'est pas bonne, une page 404 est là pour nous rediriger sur le droit chemin du site.",
-        image: './assets/Aubay-SVS/.png'
+        image: './assets/Aubay-SVS/404.png'
       }
     ],
 
