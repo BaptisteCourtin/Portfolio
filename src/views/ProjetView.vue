@@ -32,7 +32,7 @@ export default {
         <p v-if="myPrj.organisation"><span>Organisation :</span> {{ myPrj.organisation }}</p>
         <p><span>Objectif :</span> {{ myPrj.objectif }}</p>
       </div>
-      <img :src="'/' + myPrj.mainImage" alt="img-projet" />
+      <img :src="'/' + myPrj.mainImage" alt="img-projet" loading="lazy" />
     </section>
 
     <span class="trait"></span>
@@ -53,7 +53,7 @@ export default {
             <h4>{{ func.title }}</h4>
             <p>{{ func.description }}</p>
           </div>
-          <img v-if="func.image" :src="'/' + func.image" alt="img-func" />
+          <img v-if="func.image" :src="'/' + func.image" alt="img-func" loading="lazy" />
         </div>
         <div>
           <span class="points">---</span>

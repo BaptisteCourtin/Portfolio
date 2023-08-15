@@ -24,19 +24,20 @@ export const PROJETS = [
       },
       {
         title: 'Responsif',
-        description: "Il fallait que le site soit utilisable sur un téléphone. C'est fait.",
+        description:
+          "Il fallait que le site soit utilisable sur un téléphone. C'est fait. En version téléphone, la navbar, qui était en haut de page, passe en menu burger. Quand on clique sur le menu burger,, le reste de la page prend une couleur plus foncée",
         image: './assets/WCS-spa/responsive.png'
       },
       {
         title: 'Plouf',
         description:
-          "Vu que j'avais fini ma partie je me suis amusé avec les animation en css. Du coup en version ordinateur quand on clique sur l'icon user, il plonge et fait plouf.",
+          "Vu que j'avais fini ma partie je me suis amusé avec les animation en css. Du coup en version ordinateur quand on clique sur l'icon user, il plonge et fait plouf. Et y'a un bruit de plouf. C'est partie d'une blague mais je l'ai fait, et c'est drôle (au moins un peu), en tout cas moi ça me fait rire.",
         image: './assets/WCS-spa/plouf.png'
       },
       {
         title: 'Caddie',
         description:
-          "Dans la page produit, quand on clique sur ajouter au panier, ça ajoute au panier. On peut cliquer sur l'icon panier pour le voir. Par contre on ne peut pas l'enlever. Tu touche tu paye !",
+          "Dans la page produit, quand on clique sur ajouter au panier, ça ajoute au panier. On peut cliquer sur l'icon panier pour le voir. Par contre on ne peut pas enlever de produit. Tu clique tu paye !",
         image: './assets/WCS-spa/cart.png'
       }
     ],
@@ -57,7 +58,7 @@ export const PROJETS = [
     organisation: '',
     mainImage: './assets/WCS-blindtest/MAIN.png',
     objectif:
-      "Commencer à apprendre React, les méthodes agiles, les appels à l'api et, mise en pratique de nos acquis en JavaScript",
+      'Commencer à apprendre React, les méthodes agiles, les appels à une api et, mise en pratique de nos acquis en JavaScript',
 
     technos: ['React', 'JavaScript', 'CSS', 'Git / GitHub', 'Figma', 'Jira'],
 
@@ -67,28 +68,30 @@ export const PROJETS = [
       {
         title: 'Redirection',
         description:
-          "On est redirigé sur les autres pages en cliquant sur les buttons de la page d'accueil ou dans la navbar.",
+          "On est redirigé sur les autres pages en cliquant sur les boutons de la page d'accueil ou dans la navbar. Quand la navbar est ouverte, le reste de la page prend un teinte plus foncée.",
         image: './assets/WCS-blindtest/menu.png'
       },
       {
         title: 'Recherche',
-        description: 'On peut rechercher les titres selon plusieurs filtres.',
+        description:
+          "On peut rechercher les titres selon plusieurs filtres. Le premier est selon la décennie, le second par rapport au genre. Enfin, un troisième filtre permet de rechercher par rapport au nom du titre ou de l'artiste",
         image: './assets/WCS-blindtest/recherche.png'
       },
       {
         title: 'Jouer au DJ',
         description:
-          "On peut lancer les musiques. Si l'on veut on peut en lancer plusieurs à la fois (c'est pas un bug mais une feature)."
+          "Dans la page de recherche, nous pouvons lancer les musiques. Si l'on veut on peut en lancer plusieurs à la fois (ce n'est pas un bug mais une feature)."
       },
       {
         title: 'Des filtres pour jouer au blindtest',
-        description: 'On peut choisir le type de musiques ainsi que la décennie.',
+        description:
+          "On peut choisir le type de musiques ainsi que la décennie. Sinon, les membres de l'équipe ont crées leurs propres blindtests aux quels vous pouvez jouer.",
         image: './assets/WCS-blindtest/choix.png'
       },
       {
         title: 'Tester ces connaissances.',
         description:
-          "Jouer ! Avec 4 propositions disposées de manière aléatoire et un timer. Si notre réponse est fausse, la bonne apparait. Notre score s'affiche en fin de partie.",
+          "Jouer ! Avec 4 propositions disposées de manière aléatoire et un timer. Si notre réponse est fausse ou si le temps imparti est dépassé, la bonne réponse apparait. Notre score s'affiche en fin de partie.",
         image: './assets/WCS-blindtest/test.png'
       }
     ],
@@ -101,7 +104,7 @@ export const PROJETS = [
   {
     id: 3,
     titre: 'Babyplace',
-    description: 'troisième projet réalisé durant ma formation à la Wild Code School.',
+    description: 'troisième et dernier projet réalisé durant ma formation à la Wild Code School.',
     technosPrincipales: ['React', 'JavaScript', 'SCSS', 'Express', 'SQL'],
 
     tailleEquipe: '4',
@@ -109,7 +112,7 @@ export const PROJETS = [
     organisation: '',
     mainImage: './assets/WCS-babyplace/MAIN.png',
     objectif:
-      'Se servir de nos acquis en html, css, javascript dom et git dans un projet en groupe.',
+      "Créer la base de donnée du site, créer entièrement le backend et le frontend. En somme, utiliser toutes les connaissances apprisent jusqu'alors ainsi que ce que l'on a appris pendant le projet.",
 
     technos: [
       'React',
@@ -131,52 +134,66 @@ export const PROJETS = [
     fonctions: [
       {
         title: 'Inscription et authentification',
-        description: 'On peut créer un compte pour réserver une place.',
+        description:
+          'On peut créer un compte ou se connecter un à compte existant pour remplir les formulaires nécessaires, réserver une place et gérer ses réservations.',
         image: './assets/WCS-babyplace/authent.png'
       },
       {
         title: 'Recherche avec des cartes',
         description:
-          'On peut rechercher une structure avec des filtres et une disposition sous forme de cartes.',
+          "On peut rechercher une structure avec des filtres et une disposition sous forme de cartes. Les filtres sont additifs. Ils sont par rapport à ce que la structure propose comme activités, ses services mais aussi et surtout par rapport aux jours et horaires d'ouverturess.",
         image: './assets/WCS-babyplace/recherche.png'
       },
       {
         title: 'Mais aussi avec une map',
-        description: 'Une disposition des structures sur une map est disponible.',
+        description:
+          "La disposition des structures sur une map est disponible. En plus de cela, on peut calculer la distance nous séparant de l'emplacement de la structure. En rentrant son adresse dans la barre de recherche ou en utilisant le bouton pour nous localiser automatiquement.",
         image: './assets/WCS-babyplace/map.png'
       },
       {
-        title: 'Réservation',
+        title: 'Réserver une place',
         description:
-          'On peut faire une demande de réservation de façon récurrente ou exceptionnelle.',
+          'Nous pouvons faire une demande de réservation de façon récurrente ou exceptionnelle. Après avoir entrer les horaires de garde, nous pouvons demander certains suppléments, connaitre le prix total à payer et enfin envoyer la demande de réservation.',
         image: './assets/WCS-babyplace/demande.png'
       },
       {
         title: 'Les notifications',
         description:
-          'Quand une structure à accepté ou refusé notre demande, une notification apparait.',
+          "Quand une structure a accepté ou refusé notre demande, une notification apparait. Quand la demande est acceptée il reste à payer (on ne paye pas vraiment) pour valider la réservation et qu'elle s'affiche dans notre menu.",
         image: './assets/WCS-babyplace/notif.png'
       },
       {
         title: 'Noter les structures',
         description:
-          'Un certain temps après le passage en crèche, une demande de note apparit dans la section notifications.',
+          'Un certain temps après le passage en crèche, une demande de note apparaît dans la section notifications. Après avoir rentrer les notes dans les 5 différentes sections, on peut envoyer.',
         image: './assets/WCS-babyplace/note.png'
       },
       {
+        title: 'Complétion',
+        description: 'Une page rassemble le pourcentage de complétion des différents formulaires',
+        image: './assets/WCS-babyplace/.png'
+      },
+      {
         title: 'Remplir des formulaires',
-        description: 'On peut y mettre des informations.',
+        description: 'On peut y mettre des informations et cocher des case.',
         image: './assets/WCS-babyplace/formulaire.png'
       },
       {
         title: 'Envoyer des fichiers et images',
         description:
-          'Les fichiers et images sont envoyés vers google Cloud et peut ensuite être récupérés.',
+          'Les fichiers et images sont envoyés vers google Cloud et peuvent ensuite être récupérés. Pour les lires ou les supprimer.',
         image: './assets/WCS-babyplace/formCloud.png'
       },
       {
         title: 'Gérer ses favoris',
-        description: 'Supprimer les structures mises en favoris',
+        description:
+          "Dans la partie menu, on peut voir quelles sont les structures que l'on a mis en favoris et les enlever de nos favoris",
+        image: './assets/WCS-babyplace/fav.png'
+      },
+      {
+        title: 'Personnes de confiance',
+        description:
+          'Dans la partie menu, on peut ajouter et supprimer des personnes de confiance.',
         image: './assets/WCS-babyplace/fav.png'
       },
       {
@@ -210,12 +227,14 @@ export const PROJETS = [
     fonctions: [
       {
         title: 'Naviguer',
-        description: 'Choisir quelle espèce aller voir ou tester les navigations.',
+        description:
+          'Choisir quelle espèce aller voir en détail ou tester différentes possibilités de navigation.',
         image: './assets/MY-firstNative/accueil.png'
       },
       {
         title: 'Afficher des images',
-        description: 'Afficher des images qui ont différentes tailles.',
+        description:
+          'Afficher des images qui ont différentes tailles sans laisser de gros espaces entre chaque ou les aplatirs.',
         image: './assets/MY-firstNative/images.png'
       }
     ],
@@ -243,7 +262,7 @@ export const PROJETS = [
     fonctions: [
       {
         title: 'Choisir',
-        description: "Clique sur like si c'est bien, clique sur pass si c'est pas bien.",
+        description: "Clique sur like si tu aime, clique sur pass si tu n'aime pas.",
         image: './assets/MY-digimon/likePass.png'
       },
       {
@@ -262,15 +281,16 @@ export const PROJETS = [
     id: 6,
     titre: 'Site Vitrine des stages',
     description:
-      'création du site pour montrer les projets des stagiaires aux clients et aux futurs stagiaires.',
+      'création du site pour présenter les projets des stagiaires aux clients et aux futurs stagiaires.',
     technosPrincipales: ['Angular', 'JavaScript', 'SCSS', 'Java Springboot', 'SQL'],
 
     tailleEquipe:
       '3 stagiaires full-stack, 1 stagiaire designeuse, 1 Product Owner, 1 lead developpeur',
     temps: '6 mois',
     organisation: 'Aubay',
-    mainImage: './assets/WCS-digimon/MAIN.png',
-    objectif: "Continuer à s'amuser avec React Native et voir comment ça fonctionne avec une api",
+    mainImage: './assets/Aubay-SVS/MAIN.png',
+    objectif:
+      'Créer un site professionnel en front et en back tout en apprenant de nouveaux languages de programmation',
 
     technos: [
       'Angular',
@@ -287,12 +307,80 @@ export const PROJETS = [
       'Jira'
     ],
 
-    gfait: '',
+    gfait:
+      "J'ai participé à tout le développement front et back, à la création et la maintenance de la base de donnée, ainsi qu'à la création de tests unitaires. Le site devrait être en accessible fin septembre 2023",
     fonctions: [
       {
-        title: '',
-        description: '',
-        image: './assets/WCS-digimon/.png'
+        title: 'Présenter Aubay',
+        description:
+          "Une petite présentation de l'entreprise est faite sur la page d'accueil. Avec ses valeurs et engagements.",
+        image: './assets/Aubay-SVS/.png'
+      },
+      {
+        title: 'Filtrer',
+        description:
+          'Filtrer les projets selon leur thème et activité. Puis on clique dessus pour aller les voir plus en détail.',
+        image: './assets/Aubay-SVS/.png'
+      },
+      {
+        title: 'Attente',
+        description:
+          "Pendant le chargement des éléments nécéssaires, des barres d'attente tourne pour nous dire que ça arrive.",
+        image: './assets/Aubay-SVS/.png'
+      },
+      {
+        title: 'Contacter Aubay',
+        description:
+          'Un formulaire de contact est disponible avec plusieurs possibilités de motif. On y rentre son e-mail, un texte et on envoie.',
+        image: './assets/Aubay-SVS/.png'
+      },
+      {
+        title: 'Expoter en PDF',
+        description:
+          "En bas de la page de chaque projet se trouve un bouton pour exporter les projet en pdf. On y retrouve tout ce que l'on a sur la page projet. Le lien reste cliquable sur le PDF",
+        image: './assets/Aubay-SVS/.png'
+      },
+      {
+        title: 'Partager le projet',
+        description:
+          "Un autre bouton est disponible pour copier l'url dans le presse papier. Il suffit de faire un ctrl+V et c'est partagé.",
+        image: './assets/Aubay-SVS/.png'
+      },
+      {
+        title: 'La partie admin',
+        description:
+          "Nous pouvons y voir des projets non visibles par les visiteurs lambdas. Cette partie permet aussi d'administrer tout le site.",
+        image: './assets/Aubay-SVS/.png'
+      },
+      {
+        title: 'Administrer les thèmes et activités.',
+        description:
+          "Un petit formulaire est disponible pour ajouter ou modifier l'un de ces élements. On y entre les informations nécessaire et on enregistre",
+        image: './assets/Aubay-SVS/.png'
+      },
+      {
+        title: 'Administrer les projets',
+        description:
+          'Le formulaire étant assez grand, il est visuellement divisé en plusieurs parties. On y entre les informations dont une image qui sera converti en base64, et on enregistre le tout.',
+        image: './assets/Aubay-SVS/.png'
+      },
+      {
+        title: 'Supprimer',
+        description:
+          "Pour éviter tout miss-click, quand on veut supprimer un thème, une activité ou un projet, un dialogue apparait et nous demande de rentrer des informations pour être sûr que c'est ce que l'on veut.",
+        image: './assets/Aubay-SVS/.png'
+      },
+      {
+        title: "L'historique",
+        description:
+          "Les projets ont plusieurs versions. Il fallait donc pouvoir switcher de version en étant sur le projet ainsi que choisir qu'elle version serait montré en premier et afficher seulement celle-ci lors de la recherche de projet.",
+        image: './assets/Aubay-SVS/.png'
+      },
+      {
+        title: '404 ?',
+        description:
+          "Dans le cas où l'url entré n'est pas bonne, une page 404 est là pour nous rediriger sur le droit chemin du site.",
+        image: './assets/Aubay-SVS/.png'
       }
     ],
 

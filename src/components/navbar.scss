@@ -6,16 +6,14 @@
 
   background-color: var(--background-soft);
   padding: 2rem;
-
   min-height: 100vh;
-  min-width: 20rem;
-  max-width: 20rem;
 
   position: fixed;
   right: 0;
   top: 0;
 
   gap: 5rem;
+  z-index: 10;
 
   nav {
     display: flex;
@@ -31,7 +29,7 @@
         list-style: none;
         background: rgb(76, 76, 76);
 
-        width: 200px;
+        width: 170px;
         transition: 0.5s;
 
         z-index: var(--i);

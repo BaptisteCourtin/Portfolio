@@ -37,28 +37,28 @@ export default {
           <li class="Eclipse">Eclipse</li>
         </ul>
         <p>
-          Durant ce stage j'ai contribué à créer le site vitrine des stages. Le but est de pouvoir
-          montrer les projets des stagiaires aux clients ainsi qu'aux futurs stagiaires. Le site
-          sera normalement en ligne fin septembre.
+          En complément de ma formation, j'ai pu effectuer un stage de 6 mois dans l'entreprise
+          Aubay au cours duquel j'ai contribué à créer le site vitrine des stages. Le but est de
+          pouvoir présenter les projets des stagiaires aux clients ainsi qu'aux futurs stagiaires.
+          Ce site sera normalement en ligne fin septembre 2023.
           <br />
           <br />
-          En complément de ma formation, j'ai pu effectuer un stage dans l'entreprise Aubay. J'y pu
-          voir comment fonctionne une entreprise, ces méthodes et ces contraintes. J'ai travaillé
-          avec 2 autres stagiaires full-stack et une stagiaire designeuse. Il y avait aussi un PO et
-          un lead développeur quand nous en evions besoin.
+          J'ai pu me rendre compte du fonctionnement d'une entreprise, ses méthodes et ses
+          contraintes. J'ai travaillé avec 2 autres stagiaires full-stack et une stagiaire
+          designeuse. Il y avait aussi un PO et un lead développeur quand nous en avions besoin.
           <br />
           <br />
-          techniquement, la stack technique était différentes de celle apprise pendant la formation.
-          Il a donc fallu commencé par un mois de formations sur Angular, TypeScript mais surtout
-          Java Springboot. Je n'ai pas eu de problème particulier avec Angular et TypeScript puisque
-          je connaisait déjà React et JavaScript. Même si il y a des différences notables, on s'y
-          retrouve facilemment. En ce qui concerne Java et Springboot en revanche, le démarrage à
-          été plus compliqué mais j'ai finalemment réussi à m'y faire.
+          Techniquement, la stack technique était différentes de celle apprise pendant la formation.
+          Il a donc fallu commencer par des formations sur Angular, TypeScript mais surtout Java
+          Springboot. Je n'ai pas eu de problème particulier avec Angular et TypeScript puisque je
+          connaissais déjà React et JavaScript. Même si il y a des différences notables, on s'y
+          retrouve facilemment. En ce qui concerne Java et Springboot en revanche, le démarrage a
+          été plus compliqué mais j'ai réussi à m'y faire.
           <br />
           <br />
-          L'un des points importants que j'ai dû faire et apprendre pendant le stage est les tests
-          unitaires en front et en back. Pour ça aussi un temps d'adaptation à été nécessaire mais
-          au final j'ai réussi et ça me plaît.
+          L'un des points importants que j'ai dû apprendre et réaliser pendant ce stage est les
+          tests unitaires en front et en back. Pour ça aussi un temps d'adaptation à été nécessaire
+          mais au final j'ai réussi et ça me plaît.
         </p>
       </div>
     </div>
@@ -89,19 +89,20 @@ export default {
           <li class="VSCode">VSCode</li>
         </ul>
         <p>
-          La formation que j'ai suivi pour devenir développeur web full-stack. On y apprent à coder,
-          tout d'abord avec les bases tel que html et css ainsi que javascript en dom. Puis on
-          continue avec React en front et enfin Express pour le back.
+          La formation que j'ai suivie pour devenir développeur web full-stack s'est déroulée sur 5
+          mois à la Wild Code School de Nantes. Nous y apprenons à coder, tout d'abord avec les
+          bases tel que html et css ainsi que javascript en dom. Puis on continue avec React en
+          front et enfin Express pour le back.
           <br />
           <br />
-          On apprend avec des cours mais surtout des exercices et beaucoup de pratique au travers de
-          3 projets (que vous pouvez retrouver dans le partie "mes projets"). Ces projets ce font en
-          groupe de 4 ou 5 et couvrent tout ce que l'on a vu et plus encore car ils nous poussent à
-          aller chercher par nous mêmes ce dont on a besoin.
+          Cet apprentissage se fait avec des cours mais surtout des exercices et beaucoup de
+          pratique au travers de 3 projets (que vous pouvez retrouver dans la partie "mes projets").
+          Ces projets se font en groupes de 4 ou 5 et couvrent tout ce que l'on a vu et plus encore
+          car ils nous poussent à aller chercher par nous mêmes ce dont on a besoin.
           <br />
           <br />
-          En plus de cela nous y avons appris les bonnes pratiques de code ainsi qu'à faire une
-          veille technologique afin de toujours savoir ce qu'il se passe dans le monde de la tech.
+          De plus nous avons travaillé sur les bonnes pratiques de code ainsi que l'importance de la
+          veille technologique.
           <br />
           <br />
           Nous avons aussi appris les méthodes agiles avec notamment Jira.
@@ -114,19 +115,18 @@ export default {
       <div class="container-xp">
         <p class="date">septembre 2019 - juin 2022</p>
         <p>
-          EEEA ça veut dire électronique. Mais globalemment on s'en fiche, je n'ai pas aimé et je
-          n'ai pas compris grand chose. A part le module sur le language C. C'est ce qui m'a donné
-          envie de continuer à coder et, par la suite, faire du développement web.
+          EEEA est l’acronyme de Électronique, énergie électrique, automatique. C’est grâce au
+          module sur le Language C de cette formation que j’ai trouvé ma voie. Cela m'a donné envie
+          de continuer à coder et, par la suite, faire du développement web.
           <br />
           <br />
-          J'ai le niveau licence, mais je n'ai pas la licence. Attention explication : j'ai la
-          première année ainsi que la troisième année mais seulement la deuxième moitié de la
-          deuxième année. Donc il me manque la première moitié de la deuxième année. Et oui, c'est
-          normal d'avoir pu passer à l'année suivante si l'on a au moins la moitié de l'année.
+          J'ai le niveau licence, mais je n'ai pas la licence. Attention explication : j'ai validé
+          la totalité des première et troisième années ainsi que le second semestre de la seconde
+          année. Donc il me manque la première moitié de la deuxième année.
           <br />
           <br />
           En bref, ça n'a rien à voir avec les compétences que j'ai en développement web. Je le met
-          ici juste pour dire que je n'ai pas rien fait.
+          ici juste pour dire que je n'ai pas rien fait pendant 3 ans.
         </p>
       </div>
     </div>
@@ -138,8 +138,8 @@ export default {
       <h4>TOEIC</h4>
       <p class="date">avril 2022</p>
       <p>
-        La fac m'a au moins permis de paser le TOEIC. J'ai eu 820 points. Ce qui équivaut à un
-        niveau B2.
+        La fac m'a au moins permis de paser le TOEIC. J'ai eu 820 sur 990 points. Ce qui équivaut à
+        un niveau B2.
         <a
           href="https://drive.google.com/file/d/1oYb74V4GNN8yknTpi5SNoENS8QWXi7Y7/view?usp=sharing"
           target="_blank"

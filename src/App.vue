@@ -4,16 +4,19 @@ import { RouterView } from 'vue-router'
 
 <script>
 import Navbar from './components/NavBar.vue'
+import Burger from './components/Burger.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   data() {
     return {
-      isDarkTheme: 'dark-theme'
+      isDarkTheme: 'dark-theme',
+      opened: false
     }
   },
   components: {
-    Navbar
+    Navbar,
+    Burger
   },
   methods: {
     toggle() {
@@ -22,6 +25,9 @@ export default {
       } else {
         this.isDarkTheme = 'light-theme'
       }
+    },
+    toggleNavbar() {
+      this.opened = !this.opened
     }
   }
 }
@@ -29,12 +35,25 @@ export default {
 
 <template>
   <div class="global-wrapper" :class="isDarkTheme">
-    <div class="wrapper-right-left">
-      <RouterView class="global-pages" />
+    <div class="wrapper-right-left" :class="opened ? 'open' : 'false'">
       <!-- les pages -->
+      <RouterView class="global-pages" />
 
-      <Navbar :isDarkTheme="isDarkTheme" @toggle="toggle" />
-      <!-- la navbar -->
+      <!-- navbar en 3D-->
+      <Navbar
+        :isDarkTheme="isDarkTheme"
+        @toggle="toggle()"
+        class="bigNavbar"
+        :class="opened ? 'open' : 'false'"
+      />
+
+      <!-- menu burger -->
+      <Burger
+        :opened="opened"
+        class="burgerNavbar"
+        :class="opened ? 'open' : 'false'"
+        @click="toggleNavbar()"
+      />
     </div>
     <Footer class="global-footer"></Footer>
   </div>

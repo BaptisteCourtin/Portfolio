@@ -56,6 +56,8 @@
       overflow: hidden;
       /* besoin de position pour hidden */
 
+      min-width: 200px; // pareil que l'img
+
       &::before {
         content: '';
         position: absolute;
@@ -91,7 +93,6 @@
       span {
         position: absolute;
         inset: 7px;
-        /* soin absolute pour inset */
         background-color: var(--gray);
         border-radius: 16px;
         z-index: 2;
@@ -101,6 +102,20 @@
         width: 200px;
         border-radius: 20px;
         z-index: 5;
+      }
+    }
+
+    @media screen and (max-width: 380px) {
+      gap: 1rem;
+
+      .box-tourne {
+        min-width: 150px; // pareil que l'img
+
+        img {
+          width: 150px;
+          border-radius: 20px;
+          z-index: 5;
+        }
       }
     }
   }

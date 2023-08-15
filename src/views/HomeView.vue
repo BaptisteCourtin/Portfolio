@@ -26,7 +26,7 @@ library.add(faArrowRight)
       </div>
 
       <div class="box-tourne">
-        <img src="../assets/moi/photoProfil.jpg" alt="moi en photo" />
+        <img src="../assets/moi/photoProfil.jpg" alt="moi en photo" loading="lazy"/>
       </div>
     </div>
 

@@ -42,6 +42,24 @@
       max-width: 250px;
       border-radius: 10px;
     }
+
+    @media screen and (max-width: 920px) {
+      img {
+        max-width: 190px;
+      }
+    }
+
+    @media screen and (max-width: 530px) {
+      .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0.5rem;
+
+        max-width: 100%;
+      }
+    }
   }
 
   ul {
@@ -75,6 +93,10 @@
     align-items: center;
     gap: 2rem;
 
+    .myJob {
+      margin-bottom: 2rem;
+    }
+
     .full-container-func {
       display: flex;
       flex-direction: column;
@@ -107,6 +129,12 @@
           justify-self: center;
           justify-self: center;
           align-self: center;
+        }
+
+        @media screen and (max-width: 600px) {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 1rem;
         }
       }
 
