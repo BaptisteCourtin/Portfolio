@@ -10,8 +10,9 @@
           class="ICI"
           >ICI</a
         >
-        c'est le <span>dossier projet</span> que j'ai fait pour le passage de la certification - ça
-        parle du troisième projet fait durant ma formation à la Wild Code School.
+        c'est le <span>dossier projet</span> que j'ai fait pour le passage de la certification - Il
+        a été réalisé sur la base du troisième projet fait durant ma formation à la Wild Code
+        School.
       </p>
       <br />
       <br />
@@ -23,9 +24,9 @@
           >ICI</a
         >
         c'est le <span>dossier professionnel</span> que j'ai fait pour le passage de la
-        certification - ça parle des différents projets que j'ai pu faire jusque là. Vous pouvez les
-        retrouver dans la section
-        <RouterLink to="/themes">Mes Projets</RouterLink>
+        certification - Il reprend les différents projets que j'ai pu faire jusque-là. Vous pouvez
+        les retrouver dans la section
+        <RouterLink to="/themes" class="ICI">Mes Projets</RouterLink>
       </p>
     </section>
   </div>

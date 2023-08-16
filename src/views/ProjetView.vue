@@ -45,7 +45,7 @@ export default {
 
     <section class="gfe">
       <p v-if="myPrj.gfait" class="myJob">
-        <span>Ce que j'ai fait et dont je vais parler par la suite :</span> {{ myPrj.gfait }}
+        <span>Ce que j'ai fait (développé ci-après) :</span> {{ myPrj.gfait }}
       </p>
       <div v-for="func in myPrj.fonctions" class="full-container-func">
         <div class="container-func">

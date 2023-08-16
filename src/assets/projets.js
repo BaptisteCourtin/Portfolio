@@ -106,7 +106,7 @@ export const PROJETS = [
     id: 3,
     titre: 'Babyplace',
     description:
-      "troisième et dernier projet réalisé durant ma formation à la Wild Code School. Création d'un site full-stack ",
+      "Troisième et dernier projet réalisé durant ma formation à la Wild Code School. Création d'un site full-stack ",
     technosPrincipales: ['React', 'JavaScript', 'SCSS', 'Express', 'SQL'],
 
     tailleEquipe: '4',

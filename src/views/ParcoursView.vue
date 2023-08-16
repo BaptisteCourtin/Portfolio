@@ -52,12 +52,12 @@ export default {
           Il a donc fallu commencer par des formations sur Angular, TypeScript mais surtout Java
           Springboot. Je n'ai pas eu de problème particulier avec Angular et TypeScript puisque je
           connaissais déjà React et JavaScript. Même si il y a des différences notables, on s'y
-          retrouve facilemment. En ce qui concerne Java et Springboot en revanche, le démarrage a
-          été plus compliqué mais j'ai réussi à m'y faire.
+          retrouve facilement. En ce qui concerne Java et Springboot en revanche, le démarrage a été
+          plus compliqué mais j'ai réussi à m'y faire.
           <br />
           <br />
           L'un des points importants que j'ai dû apprendre et réaliser pendant ce stage est les
-          tests unitaires en front et en back. Pour ça aussi un temps d'adaptation à été nécessaire
+          tests unitaires en front et en back. Pour ça aussi un temps d'adaptation a été nécessaire
           mais au final j'ai réussi et ça me plaît.
         </p>
       </div>
@@ -98,7 +98,7 @@ export default {
           Cet apprentissage se fait avec des cours mais surtout des exercices et beaucoup de
           pratique au travers de 3 projets (que vous pouvez retrouver dans la partie "mes projets").
           Ces projets se font en groupes de 4 ou 5 et couvrent tout ce que l'on a vu et plus encore
-          car ils nous poussent à aller chercher par nous mêmes ce dont on a besoin.
+          car ils nous poussent à aller chercher par nous-mêmes ce dont on a besoin.
           <br />
           <br />
           De plus nous avons travaillé sur les bonnes pratiques de code ainsi que l'importance de la
@@ -138,13 +138,13 @@ export default {
       <h4>TOEIC</h4>
       <p class="date">avril 2022</p>
       <p>
-        La fac m'a au moins permis de paser le TOEIC. J'ai eu 820 sur 990 points. Ce qui équivaut à
+        La fac m'a au moins permis de passer le TOEIC. J'ai eu 820 sur 990 points. Ce qui équivaut à
         un niveau B2.
         <a
           href="https://drive.google.com/file/d/1oYb74V4GNN8yknTpi5SNoENS8QWXi7Y7/view?usp=sharing"
           target="_blank"
           class="ICI"
-          >Le papier qui dit que c'est vrai</a
+          >Le document qui dit que c'est vrai</a
         >
       </p>
     </div>
@@ -154,7 +154,7 @@ export default {
       <p class="date">bientôt</p>
       <p>
         Je passe une certification de développeur web et web mobile le 1er septembre. Elle équivaut
-        à un niveau bac+2. Normalemment je vais pouvoir mettre mon CV et mon Portfolio à jour
+        à un niveau bac+2. Normalement je vais pouvoir mettre mon CV et mon Portfolio à jour
         quelques semaines plus tard.
       </p>
     </div>
@@ -163,8 +163,8 @@ export default {
 
     <div>
       <p>
-        Je remet ici les technos et outils que je connais, c'est pareil quand dans la partie accueil
-        mais je les remet quand même
+        Je remets ici les technos et outils que je connais, c'est pareil quand dans la partie
+        accueil mais je les remets quand même
       </p>
       <Technos />
     </div>
