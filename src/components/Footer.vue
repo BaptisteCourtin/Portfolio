@@ -14,9 +14,12 @@ library.add(faLinkedin, faGithub, faEnvelope)
       <a href="https://github.com/BaptisteCourtin" target="_blank"
         ><font-awesome-icon icon="fa-brands fa-github"
       /></a>
-      <a href="mailto:bap2910@gmail.com"
-        ><font-awesome-icon icon="fa-solid fa-envelope" /> Contactez-moi !</a
-      >
+      <div class="myMail">
+        <a href="mailto:bap2910@gmail.com"
+          ><font-awesome-icon icon="fa-solid fa-envelope" /> Contactez-moi !
+        </a>
+        <span>bap2910@gmail.com</span>
+      </div>
     </section>
     <p class="myTag">2023 © Baptiste Courtin</p>
   </div>

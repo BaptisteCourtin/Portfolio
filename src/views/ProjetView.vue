@@ -29,7 +29,7 @@ export default {
         <p class="main-desc">{{ myPrj.description }}</p>
         <p><span>Taille de l'équipe :</span> {{ myPrj.tailleEquipe }}</p>
         <p><span>Temps :</span> {{ myPrj.temps }}</p>
-        <p v-if="myPrj.organisation"><span>Organisation :</span> {{ myPrj.organisation }}</p>
+        <p v-if="myPrj.organisation"><span>Entreprise :</span> {{ myPrj.organisation }}</p>
         <p><span>Objectif :</span> {{ myPrj.objectif }}</p>
       </div>
       <img :src="'/' + myPrj.mainImage" alt="img-projet" loading="lazy" />

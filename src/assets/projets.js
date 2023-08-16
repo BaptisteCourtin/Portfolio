@@ -19,25 +19,25 @@ export const PROJETS = [
       {
         title: 'Redirection',
         description:
-          "On est redirigé sur les autres pages en cliquant sur le images de la page d'accueil ou dans la navbar.",
+          "On est redirigé sur les autres pages en cliquant sur les images de la page d'accueil ou dans la navbar.",
         image: './assets/WCS-spa/menu.png'
       },
       {
         title: 'Responsif',
         description:
-          "Il fallait que le site soit utilisable sur un téléphone. C'est fait. En version téléphone, la navbar, qui était en haut de page, passe en menu burger. Quand on clique sur le menu burger,, le reste de la page prend une couleur plus foncée",
+          "Il fallait que le site soit utilisable sur un téléphone. C'est fait. En version téléphone, la navbar, qui était en haut de page, passe en menu burger. Quand on clique sur le menu burger, le reste de la page prend une couleur plus foncée",
         image: './assets/WCS-spa/responsive.png'
       },
       {
         title: 'Plouf',
         description:
-          "Vu que j'avais fini ma partie je me suis amusé avec les animation en css. Du coup en version ordinateur quand on clique sur l'icon user, il plonge et fait plouf. Et y'a un bruit de plouf. C'est partie d'une blague mais je l'ai fait, et c'est drôle (au moins un peu), en tout cas moi ça me fait rire.",
+          "Vu que j'avais fini ma partie je me suis amusé avec les animations en css. Du coup en version ordinateur quand on clique sur l'icon user, il plonge et fait plouf. Et il y'a un bruit de plouf. C'est parti d'une blague mais je l'ai fait, et c'est drôle (au moins un peu), en tout cas moi ça me fait rire.",
         image: './assets/WCS-spa/plouf.png'
       },
       {
         title: 'Caddie',
         description:
-          "Dans la page produit, quand on clique sur ajouter au panier, ça ajoute au panier. On peut cliquer sur l'icon panier pour le voir. Par contre on ne peut pas enlever de produit. Tu clique tu paye !",
+          "Dans la page produit, quand on clique sur ajouter au panier, ça ajoute au panier. On peut cliquer sur l'icon panier pour le voir. Par contre on ne peut pas enlever de produit. Tu cliques tu payes !",
         image: './assets/WCS-spa/cart.png'
       }
     ],
@@ -69,7 +69,7 @@ export const PROJETS = [
       {
         title: 'Redirection',
         description:
-          "On est redirigé sur les autres pages en cliquant sur les boutons de la page d'accueil ou dans la navbar. Quand la navbar est ouverte, le reste de la page prend un teinte plus foncée.",
+          "On est redirigé sur les autres pages en cliquant sur les boutons de la page d'accueil ou dans la navbar. Quand la navbar est ouverte, le reste de la page prend une teinte plus foncée.",
         image: './assets/WCS-blindtest/menu.png'
       },
       {
@@ -86,11 +86,11 @@ export const PROJETS = [
       {
         title: 'Des filtres pour jouer au blindtest',
         description:
-          "On peut choisir le type de musiques ainsi que la décennie. Sinon, les membres de l'équipe ont crées leurs propres blindtests aux quels vous pouvez jouer.",
+          "On peut choisir le type de musiques ainsi que la décennie. Sinon, les membres de l'équipe ont créés leurs propres blindtests auxquels vous pouvez jouer.",
         image: './assets/WCS-blindtest/choix.png'
       },
       {
-        title: 'Tester ces connaissances.',
+        title: 'Tester ses connaissances.',
         description:
           "Jouer ! Avec 4 propositions disposées de manière aléatoire et un timer. Si notre réponse est fausse ou si le temps imparti est dépassé, la bonne réponse apparait. Notre score s'affiche en fin de partie.",
         image: './assets/WCS-blindtest/test.png'
@@ -114,7 +114,7 @@ export const PROJETS = [
     organisation: '',
     mainImage: './assets/WCS-babyplace/MAIN.png',
     objectif:
-      "Créer la base de donnée du site, créer entièrement le backend et le frontend. En somme, utiliser toutes les connaissances apprisent jusqu'alors ainsi que ce que l'on a appris pendant le projet.",
+      "Créer la base de données du site, créer entièrement le backend et le frontend. En somme, utiliser toutes les connaissances apprises jusqu'alors et en acquérir et utiiser de nouvelles",
 
     technos: [
       'React',
@@ -132,18 +132,18 @@ export const PROJETS = [
     ],
 
     gfait:
-      "Je me suis occupé de toute la patie dite 'application', son but étant de permettre aux parents de trouver et réserver une place pour leurs enfants.",
+      "Je me suis occupé de toute la partie dite 'application', son but étant de permettre aux parents de trouver et réserver une place pour leurs enfants.",
     fonctions: [
       {
         title: 'Inscription et authentification',
         description:
-          'On peut créer un compte ou se connecter un à compte existant pour remplir les formulaires nécessaires, réserver une place et gérer ses réservations.',
+          'On peut créer un compte ou se connecter à un compte existant pour remplir les formulaires nécessaires, réserver une place et gérer ses réservations.',
         image: './assets/WCS-babyplace/authent.png'
       },
       {
         title: 'Recherche avec des cartes',
         description:
-          "On peut rechercher une structure avec des filtres et une disposition sous forme de cartes. Les filtres sont additifs. Ils sont par rapport à ce que la structure propose comme activités, ses services mais aussi et surtout par rapport aux jours et horaires d'ouverturess.",
+          "On peut rechercher une structure avec des filtres et une disposition sous forme de cartes. Les filtres sont additifs. Ils sont par rapport à ce que la structure propose comme activités, ses services mais aussi et surtout par rapport aux jours et horaires d'ouvertures.",
         image: './assets/WCS-babyplace/recherche.png'
       },
       {
@@ -155,19 +155,19 @@ export const PROJETS = [
       {
         title: 'Réserver une place',
         description:
-          'Nous pouvons faire une demande de réservation de façon récurrente ou exceptionnelle. Après avoir entrer les horaires de garde, nous pouvons demander certains suppléments, connaitre le prix total à payer et enfin envoyer la demande de réservation.',
+          'Nous pouvons faire une demande de réservation de façon récurrente ou exceptionnelle. Après avoir entré les horaires de garde, nous pouvons demander certains suppléments, connaitre le prix total à payer et enfin envoyer la demande de réservation.',
         image: './assets/WCS-babyplace/demande.png'
       },
       {
         title: 'Les notifications',
         description:
-          "Quand une structure a accepté ou refusé notre demande, une notification apparait. Quand la demande est acceptée il reste à payer (on ne paye pas vraiment) pour valider la réservation et qu'elle s'affiche dans notre menu.",
+          "Quand une structure a accepté ou refusé notre demande, une notification apparait. Quand la demande est acceptée il reste à payer (on ne paye pas vraiment, ça reste un projet non professionnel malgré tout) pour valider la réservation et qu'elle s'affiche dans notre menu.",
         image: './assets/WCS-babyplace/notif.png'
       },
       {
         title: 'Noter les structures',
         description:
-          'Un certain temps après le passage en crèche, une demande de note apparaît dans la section notifications. Après avoir rentrer les notes dans les 5 différentes sections, on peut envoyer.',
+          'Un certain temps après le passage en crèche, une demande de note apparaît dans la section notifications. Après avoir rentré les notes dans les 5 différentes sections, on peut envoyer.',
         image: './assets/WCS-babyplace/note.png'
       },
       {
@@ -200,7 +200,7 @@ export const PROJETS = [
       },
       {
         title: 'Ne pas être aidé',
-        description: 'Par contre on ne fait pas de service après vente.',
+        description: 'Par contre on ne fait pas de service après-vente.',
         image: './assets/WCS-babyplace/aide.png'
       }
     ],
@@ -221,7 +221,7 @@ export const PROJETS = [
     organisation: '',
     mainImage: './assets/MY-firstNative/MAIN.png',
     objectif:
-      "Après une démonstartion en cours de React Native, j'ai décidé d'approfondir pour voir les posibilités.",
+      "Après une démonstration en cours de React Native, j'ai décidé d'approfondir pour voir les possibilités.",
 
     technos: ['React Native', 'CSS', 'Git / GitHub'],
 
@@ -236,7 +236,7 @@ export const PROJETS = [
       {
         title: 'Afficher des images',
         description:
-          'Afficher des images qui ont différentes tailles sans laisser de gros espaces entre chaque ou les aplatirs.',
+          'Afficher des images qui ont différentes tailles sans laisser de gros espaces entre chaque ou les aplatir.',
         image: './assets/MY-firstNative/images.png'
       }
     ],
@@ -264,7 +264,7 @@ export const PROJETS = [
     fonctions: [
       {
         title: 'Choisir',
-        description: "Clique sur like si tu aime, clique sur pass si tu n'aime pas.",
+        description: "Clique sur like si tu aimes, clique sur pass si tu n'aimes pas.",
         image: './assets/MY-digimon/likePass.png'
       },
       {
@@ -292,7 +292,7 @@ export const PROJETS = [
     organisation: 'Aubay',
     mainImage: './assets/Aubay-SVS/MAIN.png',
     objectif:
-      'Créer un site professionnel en front et en back tout en apprenant de nouveaux languages de programmation',
+      'Créer un site professionnel en front et en back tout en apprenant de nouveaux langages de programmation',
 
     technos: [
       'Angular',
@@ -310,10 +310,10 @@ export const PROJETS = [
     ],
 
     gfait:
-      "J'ai participé à tout le développement front et back, à la création et la maintenance de la base de donnée, ainsi qu'à la création de tests unitaires. Le site devrait être en accessible fin septembre 2023",
+      "J'ai participé à tout le développement front et back, à la création et la maintenance de la base de données, ainsi qu'à la création de tests unitaires. Le site devrait être en accessible fin septembre 2023",
     fonctions: [
       {
-        title: 'Présenter Aubay',
+        title: "Présenter l'entreprise Aubay",
         description:
           "Une petite présentation de l'entreprise est faite sur la page d'accueil. Avec ses valeurs et engagements.",
         image: './assets/Aubay-SVS/accueil.png'
@@ -327,7 +327,7 @@ export const PROJETS = [
       {
         title: 'Attente',
         description:
-          "Pendant le chargement des éléments nécéssaires, des barres d'attente tourne pour nous dire que ça arrive.",
+          "Pendant le chargement des éléments nécessaires, des barres d'attente tournent pour nous dire que ça arrive.",
         image: './assets/Aubay-SVS/charge.png'
       },
       {
@@ -351,7 +351,7 @@ export const PROJETS = [
       {
         title: 'Expoter en PDF',
         description:
-          "Un autre bouton est présent pour exporter les projet en pdf. On y retrouve tout ce que l'on a sur la page projet. Le lien reste cliquable sur le PDF",
+          "Un autre bouton est présent pour exporter les projets en pdf. On y retrouve tout ce que l'on a sur la page projet. Le lien reste cliquable sur le PDF",
         image: './assets/Aubay-SVS/pdf.png'
       },
 
@@ -370,7 +370,7 @@ export const PROJETS = [
       {
         title: 'Administrer les projets',
         description:
-          'Le formulaire étant assez grand, il est visuellement divisé en plusieurs parties. On y entre les informations dont une image qui sera converti en base64, et on enregistre le tout.',
+          'Le formulaire étant assez grand, il est visuellement divisé en plusieurs parties. On y entre les informations dont une image qui sera convertie en base64, et on enregistre le tout.',
         image: './assets/Aubay-SVS/adminProjet.png'
       },
       {
@@ -382,7 +382,7 @@ export const PROJETS = [
       {
         title: "L'historique",
         description:
-          "Les projets ont plusieurs versions. Il fallait donc pouvoir switcher de version en étant sur le projet ainsi que choisir qu'elle version serait montré en premier et afficher seulement celle-ci lors de la recherche de projet.",
+          "Les projets ont plusieurs versions. Il fallait donc pouvoir switcher de version en étant sur le projet ainsi que choisir qu'elle version serait montrée en premier et afficher seulement celle-ci lors de la recherche de projet.",
         image: './assets/Aubay-SVS/historique.png'
       },
       {

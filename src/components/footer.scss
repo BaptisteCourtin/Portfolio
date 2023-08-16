@@ -23,6 +23,17 @@
     a:hover {
       color: var(--gold);
     }
+
+    .myMail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        font-size: 0.7rem;
+      }
+    }
   }
 
   .myTag {
