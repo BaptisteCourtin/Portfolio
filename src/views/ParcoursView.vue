@@ -125,7 +125,7 @@ export default {
           année. Donc il me manque la première moitié de la deuxième année.
           <br />
           <br />
-          En bref, ça n'a rien à voir avec les compétences que j'ai en développement web. Je le met
+          En bref, ça n'a rien à voir avec les compétences que j'ai en développement web. Je le mets
           ici juste pour dire que je n'ai pas rien fait pendant 3 ans.
         </p>
       </div>

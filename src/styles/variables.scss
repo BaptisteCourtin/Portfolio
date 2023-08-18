@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;300;400;500;600;700;800&display=swap');
 // font-family: 'Handjet', cursive;
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-// font-family: 'Work Sans', sans-serif;
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 // font-family: 'Manrope', sans-serif;
 
@@ -14,9 +11,14 @@
   --black: #131313;
   --soft-black: #2d3132;
 
-  --gold: #ffd700;
-  --blue: #b9f0fd;
-  --violet: #d976f0;
+  --gold-light: #ffd700;
+  --gold-dark: #ff8000;
+
+  --blue-light: #00d0ff;
+  --blue-dark: #00d0ff;
+
+  --violet-light: #c838e9;
+  --violet-dark: #c838e9;
 
   // ---
 
@@ -40,6 +42,10 @@
 
   --color: var(--black);
   --color-soft: var(--soft-black);
+
+  --gold: var(--gold-dark);
+  --blue: var(--blue-dark);
+  --violet: var(--violet-dark);
 }
 
 // dark theme
@@ -49,4 +55,8 @@
 
   --color: var(--white);
   --color-soft: var(--soft-white);
+
+  --gold: var(--gold-light);
+  --blue: var(--blue-dark);
+  --violet: var(--violet-dark);
 }

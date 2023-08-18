@@ -18,7 +18,6 @@ html {
 }
 
 body {
-  line-height: 1;
   min-height: 100%;
 
   background: var(--background);
@@ -83,7 +82,7 @@ table {
 .ICI {
   font-weight: 800;
   color: var(--gold);
-  text-shadow: 0 0 0.5rem var(--color);
+  font-style: italic;
 }
 
 /* --- */

@@ -73,8 +73,17 @@
     <div class="cadre">
       <h4>Je parle des langues aussi</h4>
       <ul>
-        <li>Français<img src="../assets/logos/fr.png" alt="logo" loading="lazy" /></li>
-        <li>Anglais<img src="../assets/logos/en.png" alt="logo" loading="lazy" /></li>
+        <li>Français (natif)<img src="../assets/logos/fr.png" alt="logo" loading="lazy" /></li>
+        <li>
+          Anglais
+          <a
+            href="https://drive.google.com/file/d/1oYb74V4GNN8yknTpi5SNoENS8QWXi7Y7/view?usp=sharing"
+            target="_blank"
+            class="ICI"
+            >(B2)</a
+          >
+          <img src="../assets/logos/en.png" alt="logo" loading="lazy" />
+        </li>
       </ul>
     </div>
   </div>

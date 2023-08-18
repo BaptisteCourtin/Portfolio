@@ -19,7 +19,7 @@ export default {
     <h1>Mes Projets</h1>
 
     <section class="wrapper-card-project">
-      <CardProjet v-for="prj in PROJETS" :key="prj.id" message="hello" :prj="prj" />
+      <CardProjet v-for="prj in PROJETS" :key="prj.id" :prj="prj" />
     </section>
   </div>
 </template>

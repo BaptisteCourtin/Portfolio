@@ -345,11 +345,11 @@ export const PROJETS = [
       {
         title: 'Partager le projet',
         description:
-          "En bas de la page de chaque projet se trouve un bouton est disponible pour copier l'url dans le presse papier. Il suffit de faire un ctrl+V et c'est partagé.",
+          "En bas de la page de chaque projet, se trouve un bouton pour copier l'url dans le presse papier. Il suffit de faire un ctrl+V et c'est partagé !",
         image: './assets/Aubay-SVS/lien.png'
       },
       {
-        title: 'Expoter en PDF',
+        title: 'Exporter en PDF',
         description:
           "Un autre bouton est présent pour exporter les projets en pdf. On y retrouve tout ce que l'on a sur la page projet. Le lien reste cliquable sur le PDF",
         image: './assets/Aubay-SVS/pdf.png'
@@ -382,7 +382,7 @@ export const PROJETS = [
       {
         title: "L'historique",
         description:
-          "Les projets ont plusieurs versions. Il fallait donc pouvoir switcher de version en étant sur le projet ainsi que choisir qu'elle version serait montrée en premier et afficher seulement celle-ci lors de la recherche de projet.",
+          'Les projets ont plusieurs versions. Il fallait donc pouvoir switcher de version en étant sur le projet ainsi que choisir quelle version serait montrée en premier et afficher seulement celle-ci lors de la recherche de projet.',
         image: './assets/Aubay-SVS/historique.png'
       },
       {

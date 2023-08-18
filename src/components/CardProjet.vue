@@ -1,14 +1,22 @@
 <script>
 export default {
   props: {
-    prj: Object,
-    message: String
+    prj: Object
+  },
+  methods: {
+    retourHaut() {
+      window.scrollTo(0, 0)
+    }
   }
 }
 </script>
 
 <template>
-  <RouterLink :to="{ name: 'projet', params: { id: prj.id } }" class="global-cardProjet">
+  <RouterLink
+    :to="{ name: 'projet', params: { id: prj.id } }"
+    class="global-cardProjet"
+    @click="retourHaut()"
+  >
     <!--  -->
 
     <img :src="prj.mainImage" alt="img-projet" loading="lazy" />
