@@ -173,7 +173,7 @@ export const PROJETS = [
       {
         title: 'Complétion',
         description: 'Une page rassemble le pourcentage de complétion des différents formulaires',
-        image: './assets/WCS-babyplace/.png'
+        image: './assets/WCS-babyplace/completion.png'
       },
       {
         title: 'Remplir des formulaires',
@@ -196,7 +196,7 @@ export const PROJETS = [
         title: 'Personnes de confiance',
         description:
           'Dans la partie menu, on peut ajouter et supprimer des personnes de confiance.',
-        image: './assets/WCS-babyplace/fav.png'
+        image: './assets/WCS-babyplace/confiance.png'
       },
       {
         title: 'Ne pas être aidé',
@@ -283,7 +283,7 @@ export const PROJETS = [
     id: 6,
     titre: 'Site Vitrine des stages',
     description:
-      'Création du site pour présenter les projets des stagiaires aux clients et aux futurs stagiaires.',
+      "Création du site pour présenter les projets des stagiaires d'Aubay aux clients et aux futurs stagiaires.",
     technosPrincipales: ['Angular', 'JavaScript', 'SCSS', 'Java Springboot', 'SQL'],
 
     tailleEquipe:

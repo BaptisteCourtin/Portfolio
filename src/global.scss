@@ -54,11 +54,22 @@
       }
 
       .bigNavbar {
-        display: none;
+        // display: none;
         border-left: 1px solid var(--gold);
+        transform: translate(17rem);
+        transition: all 0.5s;
+
+        li {
+          display: none;
+        }
 
         &.open {
           display: flex;
+          transform: translate(0rem);
+
+          li {
+            display: flex;
+          }
         }
       }
 

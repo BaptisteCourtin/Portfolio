@@ -8,6 +8,7 @@ export default {
   },
   methods: {
     retourHaut() {
+      this.$emit('close-navbar')
       window.scrollTo(0, 0)
     }
   }
@@ -29,6 +30,6 @@ export default {
         <!-- style="position z-index" -->
       </ul>
     </nav>
-    <ToggleDarkLight :isDarkTheme="isDarkTheme" @toggle="$emit('toggle')" />
+    <ToggleDarkLight :isDarkTheme="isDarkTheme" @toggleTheme="$emit('toggleTheme')" />
   </div>
 </template>

@@ -14,7 +14,7 @@ library.add(faSun, faMoon)
       type="checkbox"
       id="toggle"
       :checked="isDarkTheme === 'dark-theme' ? 'checked' : false"
-      @change="$emit('toggle')"
+      @change="$emit('toggleTheme')"
     />
     <label class="toggle" for="toggle">
       <font-awesome-icon icon="fa-sun" class="sun icon" />

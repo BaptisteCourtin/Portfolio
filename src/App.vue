@@ -19,7 +19,7 @@ export default {
     Burger
   },
   methods: {
-    toggle() {
+    toggleTheme() {
       if (this.isDarkTheme === 'light-theme') {
         this.isDarkTheme = 'dark-theme'
       } else {
@@ -28,6 +28,9 @@ export default {
     },
     toggleNavbar() {
       this.opened = !this.opened
+    },
+    closeNavbar() {
+      this.opened = false
     }
   }
 }
@@ -42,7 +45,8 @@ export default {
       <!-- navbar en 3D-->
       <Navbar
         :isDarkTheme="isDarkTheme"
-        @toggle="toggle()"
+        @closeNavbar="closeNavbar()"
+        @toggleTheme="toggleTheme()"
         class="bigNavbar"
         :class="opened ? 'open' : 'false'"
       />
