@@ -1,5 +1,7 @@
 <script>
-import { PROJETS } from '../assets/projets'
+import { PROJETSFR } from '../translation/fr/projets'
+import { PROJETSEN } from '../translation/en/projets'
+
 import CardProjet from '../components/CardProjet.vue'
 
 export default {
@@ -8,14 +10,22 @@ export default {
   },
   data() {
     return {
-      PROJETS: PROJETS,
+      PROJETSFR: PROJETSFR,
+      PROJETSEN: PROJETSEN,
+
       sortByField: 'id',
       sortOrder: -1
     }
   },
   computed: {
     sortedProjects() {
-      const projects = [...this.PROJETS]
+      let projects
+
+      if (this.$i18next.language == 'en') {
+        projects = [...this.PROJETSEN]
+      } else {
+        projects = [...this.PROJETSFR]
+      }
       if (this.sortByField) {
         projects.sort((a, b) => {
           const aValue = a[this.sortByField]
@@ -43,7 +53,7 @@ export default {
 
 <template>
   <div class="global-theme">
-    <h1>Mes Projets</h1>
+    <h1>{{ $t('theme.titre') }}</h1>
 
     <button @click="sortBy('id')">
       <span>

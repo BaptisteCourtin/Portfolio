@@ -16,7 +16,7 @@ library.add(faLinkedin, faGithub, faEnvelope)
       /></a>
       <div class="myMail">
         <a href="mailto:bap2910@gmail.com"
-          ><font-awesome-icon icon="fa-solid fa-envelope" /> Contactez-moi !
+          ><font-awesome-icon icon="fa-solid fa-envelope" /> {{ $t('footer.contact') }}
         </a>
         <span>bap2910@gmail.com</span>
       </div>

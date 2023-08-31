@@ -1,5 +1,6 @@
 <script>
-import { PROJETS } from '../assets/projets'
+import { PROJETSFR } from '../translation/fr/projets'
+import { PROJETSEN } from '../translation/en/projets'
 
 export default {
   data() {
@@ -12,9 +13,18 @@ export default {
     this.projectId = this.$route.params.id
     this.fetchProjectDetails() // Appel initial pour charger les détails du projet
   },
+  computed: {
+    sortedProjects() {
+      this.fetchProjectDetails()
+    }
+  },
   methods: {
     fetchProjectDetails() {
-      this.myPrj = PROJETS[this.projectId - 1]
+      if (this.$i18next.language == 'en') {
+        this.myPrj = PROJETSEN[this.projectId - 1]
+      } else {
+        this.myPrj = PROJETSFR[this.projectId - 1]
+      }
       // Tu peux maintenant accéder à this.myPrj dans le template
     }
   }

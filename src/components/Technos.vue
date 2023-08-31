@@ -1,9 +1,9 @@
 <template>
   <div class="global-techno">
-    <h3>Je connais ces technos :</h3>
+    <h3>{{ $t('technos.titre') }}</h3>
 
     <div class="cadre">
-      <h4>En Front</h4>
+      <h4>{{ $t('technos.front') }}</h4>
       <ul>
         <li>HTML <img src="../assets/logos/html.png" alt="logo" loading="lazy" /></li>
         <li>
@@ -28,7 +28,7 @@
     </div>
 
     <div class="cadre">
-      <h4>En Back</h4>
+      <h4>{{ $t('technos.back') }}</h4>
       <ul>
         <li>Node.js<img src="../assets/logos/node.png" alt="logo" loading="lazy" /></li>
         <li>Express<img src="../assets/logos/node.png" alt="logo" loading="lazy" /></li>
@@ -41,7 +41,7 @@
     </div>
 
     <div class="cadre">
-      <h4>Je connais ces outils</h4>
+      <h4>{{ $t('technos.outils') }}</h4>
       <ul>
         <li>
           Git / Github / Gitlab<img src="../assets/logos/git.png" alt="logo" loading="lazy" /><img
@@ -63,7 +63,7 @@
     </div>
 
     <div class="cadre">
-      <h4>J'utilise ces environnements</h4>
+      <h4>{{ $t('technos.env') }}</h4>
       <ul>
         <li>VSCode<img src="../assets/logos/vscode.png" alt="logo" loading="lazy" /></li>
         <li>Eclipse<img src="../assets/logos/eclipse.png" alt="logo" loading="lazy" /></li>
@@ -71,11 +71,13 @@
     </div>
 
     <div class="cadre">
-      <h4>Je parle des langues aussi</h4>
+      <h4>{{ $t('technos.langues') }}</h4>
       <ul>
-        <li>Français (natif)<img src="../assets/logos/fr.png" alt="logo" loading="lazy" /></li>
         <li>
-          Anglais
+          {{ $t('technos.fr') }}<img src="../assets/logos/fr.png" alt="logo" loading="lazy" />
+        </li>
+        <li>
+          {{ $t('technos.en') }}
           <a
             href="https://drive.google.com/file/d/1oYb74V4GNN8yknTpi5SNoENS8QWXi7Y7/view?usp=sharing"
             target="_blank"

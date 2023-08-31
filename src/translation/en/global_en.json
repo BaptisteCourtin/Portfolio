@@ -1,0 +1,98 @@
+{
+  "navbar": {
+    "accueil": "Home",
+    "parcours": "My journey",
+    "projets": "My projects",
+    "blog": "My blog"
+  },
+
+  "footer": {
+    "contact": "Contact me !"
+  },
+
+  "technos": {
+    "titre": "I know this technos :",
+    "front": "In Front",
+    "back": "In Back",
+    "outils": "I know these tools",
+    "env": "I use these environments",
+
+    "langues": "I speak languages too",
+    "fr": "French (native)",
+    "en": "English"
+  },
+
+  "accueil": {
+    "bonjour": "Hello World",
+    "moi": "It's me",
+    "metier": "full-stack web developer",
+    "photo": "that's me there",
+
+    "quete1": "Currently searching for a",
+    "quete2": "permanent contract",
+    "quete3": "from September 1st 2023, or an",
+    "quete4": "apprenticeship contract",
+    "quete5": "as a web developer (full stack) from September 18th 2023, in the Nantes region.",
+
+    "la": "Here",
+    "cv": "my resume"
+  },
+
+  "parcours": {
+    "titre": "My Journey",
+    "haut": "(the last on top)",
+
+    "AubayTitre": "Internship at Aubay",
+    "AubayDate": "february 2023 - august 2023",
+    "AubayDesc1": "In addition to my training, I was able to do a 6 month work placement with Aubay, during which I helped to create the work placement showcase website. The aim is to be able to present the trainees' projects to clients and future trainees. The site should be online by the end of september 2023.",
+    "AubayDesc2": "I got to see how a company works, its methods and constraints. I worked with 2 other full-stack trainees and a design trainee. There was also a PO and a lead developer when we needed them.",
+    "AubayDesc3": "Technically, the technical stack was different from that learnt during the training. So we had to start with training on Angular, TypeScript and above all Java Springboot. I didn't have any particular problems with Angular and TypeScript because I already knew React and JavaScript. Even though there are some notable differences, it's easy to find your way around. With Java and Springboot, on the other hand, getting started was more complicated but I managed to get the hang of it.",
+    "AubayDesc4": "One of the most important things I had to learn and do during this placement was front and back-end unit testing. It took me a while to get used to that too, but in the end I succeeded and I like it.",
+
+    "WCSTitre": "My training at Wild Code School",
+    "WCSDate": "september 2022 - february 2023",
+    "WCSDesc1": "The training I did to become a full-stack web developer took place over 5 months at the Wild Code School in Nantes. We learn to code there, starting with the basics such as html and css as well as javascript in dom. Then we continued with React for the front end and Express for the back end.",
+    "WCSDesc2": "This learning is done through lessons but above all exercises and a lot of practice through 3 projects (which you can find in the 'my projects' section).  These projects are done in groups of 4 or 5 and cover everything we've seen and more, because they encourage us to go and find what we need on our own.",
+    "WCSDesc3": "We also worked on good coding practices and the importance of technology watch.",
+    "WCSDesc4": "We also learnt about agile methods, in particular with Jira.",
+
+    "FacTitre": "The university - EEEA",
+    "FacDate": "september 2019 - june 2022",
+    "FacDesc1": "EEEA stands for Électronique, énergie électrique, automatique. It was thanks to the Language C module in this course that I found my calling. It made me want to continue coding and then go into web development.",
+    "FacDesc2": "I have a degree, but I don't have a bachelor's degree. Careful explanation: I've passed the first and third years in their entirety, as well as the second semester of the second year. So I'm missing the first half of the second year.",
+    "FacDesc3": "In short, it has nothing to do with the skills I have in web development. I'm putting it here just to say that I haven't done anything for 3 years.",
+
+    "CertifTitre": "My certifications",
+
+    "Certif1Titre": "TOEIC",
+    "Certif1Date": "april 2022",
+    "Certif1Desc": "At least university enabled me to take the TOEIC exam. I got 820 out of 990 points. Which is equivalent to a B2 level.",
+    "Certif1Doc": "The document that says it's true",
+
+    "Certif2Titre": "Web and mobile web developer certification",
+    "Certif2Date": "soon",
+    "Certif2Desc": "I'm taking a web and mobile web developer certification on 1 September. It's equivalent to a bac+2 level. I should be able to update my CV and Portfolio a few weeks later.",
+
+    "technos": "I'm putting the technologies and tools I know here, it's the same as in the home section but I'm putting them here anyway"
+  },
+
+  "theme": {
+    "titre": "My projects",
+    "recents": "The most recent before",
+    "anciens": "The oldest before"
+  },
+
+  "blog": {
+    "titre": "My blog",
+    "ici": "HERE",
+
+    "doss_projet1": "is the",
+    "doss_projet2": "dossier projet",
+    "doss_projet3": "that I made for the certification exam. It was based on the third project I did during my training at Wild Code School.",
+
+    "doss_pro1": "is the",
+    "doss_pro2": "dossier professionnel",
+    "doss_pro3": "that I made for the certification exam. It includes the various projects I've done so far. You can find them in the section",
+    "doss_pro4": "My Projects"
+  }
+}

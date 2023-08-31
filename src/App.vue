@@ -3,8 +3,8 @@ import { RouterView } from 'vue-router'
 </script>
 
 <script>
-import Navbar from './components/NavBar.vue'
-import Burger from './components/Burger.vue'
+import Navbar from './components/nav/NavBar.vue'
+import Burger from './components/nav/Burger.vue'
 import Footer from './components/Footer.vue'
 
 export default {

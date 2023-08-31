@@ -12,35 +12,29 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons'
 import { faUpLong } from '@fortawesome/free-solid-svg-icons'
 
-
 import { faArrowTurnDown } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRotateRight } from '@fortawesome/free-solid-svg-icons'
-
 
 import { faArrowTrendUp } from '@fortawesome/free-solid-svg-icons'
 import { faArrowTrendDown } from '@fortawesome/free-solid-svg-icons'
 
-
 import { faLocationArrow } from '@fortawesome/free-solid-svg-icons'
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons'
-
-
-
 
 library.add(faArrowRight, faArrowLeftLong, faUpLong, faArrowTurnDown, faArrowRotateRight, faArrowTrendUp, faArrowTrendDown, faLocationArrow, faAnglesDown)
 </script>
 
 <template>
   <div class="global-home">
-    <h1>Bonjour</h1>
+    <h1>{{ $t("accueil.bonjour") }}</h1>
 
     <div class="moi">
       <div class="text">
         <p>
-          Moi c'est <span class="name">Baptiste COURTIN</span>,
-          <span class="dev">développeur web full-stack</span>
+          {{ $t("accueil.moi") }} <span class="name">Baptiste COURTIN</span>,
+          <span class="dev">{{ $t("accueil.metier") }}</span>
         </p>
-        <p>c'est moi là <font-awesome-icon icon="fa-solid fa-arrow-right" /></p>
+        <p>{{ $t("accueil.photo") }} <font-awesome-icon icon="fa-solid fa-arrow-right" /></p>
       </div>
 
       <div class="box-tourne">
@@ -50,8 +44,7 @@ library.add(faArrowRight, faArrowLeftLong, faUpLong, faArrowTurnDown, faArrowRot
 
     <div class="quete">
       <p>
-      Actuellement en quête d'un <h4>CDI</h4> à partir du 1er septembre 2023, ou d'une <h4>alternance (contrat d'apprentissage)</h4> de
-      développeur web (full stack) à partir du 18 septembre 2023, dans la région Nantaise. </p>
+        {{ $t("accueil.quete1") }} <h4>{{ $t("accueil.quete2") }}</h4> {{ $t("accueil.quete3") }} <h4>{{ $t("accueil.quete4") }}</h4> {{ $t("accueil.quete5") }} </p>
 
 
       <div class="monCV">
@@ -64,7 +57,7 @@ library.add(faArrowRight, faArrowLeftLong, faUpLong, faArrowTurnDown, faArrowRot
           <a
           href="https://drive.google.com/file/d/1RotGczuEcBPaLRzidQrq4pCItXJc6Tub/view?usp=sharing"
           target="_blank"
-          > <span class="ICI">Là</span> c'est mon CV
+          > <span class="ICI">{{ $t("accueil.la") }}</span> {{ $t("accueil.cv") }}
         </a>
       </p>
         <font-awesome-icon class="fa-solid" icon="fa-arrow-rotate-right" />
@@ -72,10 +65,8 @@ library.add(faArrowRight, faArrowLeftLong, faUpLong, faArrowTurnDown, faArrowRot
         <span class="fa-solid with-bg">➜</span>
         <font-awesome-icon class="fa-solid" icon="fa-location-arrow" />
         <font-awesome-icon class="fa-solid" icon="fa-up-long" />
-
+      
       </div>
-
-
     </div>
 
     <span class="trait"></span>
