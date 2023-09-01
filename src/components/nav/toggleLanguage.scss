@@ -1,0 +1,99 @@
+.toggle-language {
+  display: flex;
+  gap: 2rem;
+  position: relative;
+
+  // --- stars ---
+  .container-stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+
+    transition: 0.3s;
+    border-radius: 2rem;
+
+    .stars {
+      position: relative;
+      background: transparent;
+      width: 10rem;
+      height: 10rem;
+    }
+
+    .stars::before {
+      content: '';
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+
+      width: 100%;
+      height: 100%;
+      animation: animStarFREN 15s linear infinite;
+
+      background-image: radial-gradient(var(--color) 2px, transparent 2%);
+      background-size: 35px 35px;
+    }
+
+    @keyframes animStarFREN {
+      from {
+        transform: translateY(0);
+        transform: rotate(-360deg);
+      }
+
+      to {
+        transform: translateY(-5rem);
+        transform: rotate(0);
+      }
+    }
+
+    .stars::after {
+      content: '';
+      position: absolute;
+      top: -1rem;
+      left: -1rem;
+
+      width: 100%;
+      height: 100%;
+      animation: animStarENFR 10s linear infinite;
+
+      background-image: radial-gradient(var(--color) 2px, transparent 2%);
+      background-size: 35px 35px;
+    }
+
+    @keyframes animStarENFR {
+      from {
+        transform: rotate(360deg);
+      }
+
+      to {
+        transform: rotate(0);
+      }
+    }
+  }
+
+  // --- les buttons ---
+  button {
+    width: 50px;
+    height: 50px;
+    color: var(--color);
+    transition: 0.3s;
+
+    background: linear-gradient(145deg, var(--background), var(--background-soft));
+    box-shadow: 0px 0px 10px var(--color);
+
+    &:first-of-type {
+      border-top-left-radius: 50%;
+      border-bottom-left-radius: 50%;
+    }
+
+    &:nth-of-type(2) {
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

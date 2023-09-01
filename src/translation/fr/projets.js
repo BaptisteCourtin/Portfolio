@@ -1,4 +1,4 @@
-export const PROJETS = [
+export const PROJETSFR = [
   {
     id: 1,
     titre: 'Site vitrine - spa',
@@ -25,7 +25,7 @@ export const PROJETS = [
       {
         title: 'Responsif',
         description:
-          "Il fallait que le site soit utilisable sur un téléphone. C'est fait. En version téléphone, la navbar, qui était en haut de page, passe en menu burger. Quand on clique sur le menu burger, le reste de la page prend une couleur plus foncée",
+          "Il fallait que le site soit utilisable sur un téléphone. C'est fait. En version téléphone, la navbar, qui était en haut de page, passe en menu burger. Quand on clique sur le menu burger, le reste de la page prend une couleur plus foncée.",
         image: './assets/WCS-spa/responsive.png'
       },
       {
@@ -59,7 +59,7 @@ export const PROJETS = [
     organisation: '',
     mainImage: './assets/WCS-blindtest/MAIN.png',
     objectif:
-      'Commencer à apprendre React, les méthodes agiles, les appels à une api et, mise en pratique de nos acquis en JavaScript',
+      'Commencer à apprendre React, les méthodes agiles, les appels à une api et, mise en pratique de nos acquis en JavaScript.',
 
     technos: ['React', 'JavaScript', 'CSS', 'Git / GitHub', 'Figma', 'Jira'],
 
@@ -75,7 +75,7 @@ export const PROJETS = [
       {
         title: 'Recherche',
         description:
-          "On peut rechercher les titres selon plusieurs filtres. Le premier est selon la décennie, le second par rapport au genre. Enfin, un troisième filtre permet de rechercher par rapport au nom du titre ou de l'artiste",
+          "On peut rechercher les titres selon plusieurs filtres. Le premier est selon la décennie, le second par rapport au genre. Enfin, un troisième filtre permet de rechercher par rapport au nom du titre ou de l'artiste.",
         image: './assets/WCS-blindtest/recherche.png'
       },
       {
@@ -90,7 +90,7 @@ export const PROJETS = [
         image: './assets/WCS-blindtest/choix.png'
       },
       {
-        title: 'Tester ses connaissances.',
+        title: 'Tester ses connaissances',
         description:
           "Jouer ! Avec 4 propositions disposées de manière aléatoire et un timer. Si notre réponse est fausse ou si le temps imparti est dépassé, la bonne réponse apparait. Notre score s'affiche en fin de partie.",
         image: './assets/WCS-blindtest/test.png'
@@ -106,7 +106,7 @@ export const PROJETS = [
     id: 3,
     titre: 'Babyplace',
     description:
-      "Troisième et dernier projet réalisé durant ma formation à la Wild Code School. Création d'un site full-stack ",
+      "Troisième et dernier projet réalisé durant ma formation à la Wild Code School. Création d'un site full-stack.",
     technosPrincipales: ['React', 'JavaScript', 'SCSS', 'Express', 'SQL'],
 
     tailleEquipe: '4',
@@ -114,7 +114,7 @@ export const PROJETS = [
     organisation: '',
     mainImage: './assets/WCS-babyplace/MAIN.png',
     objectif:
-      "Créer la base de données du site, créer entièrement le backend et le frontend. En somme, utiliser toutes les connaissances apprises jusqu'alors et en acquérir et utiiser de nouvelles",
+      "Créer la base de données du site, créer entièrement le backend et le frontend. En somme, utiliser toutes les connaissances apprises jusqu'alors et en acquérir et utiiser de nouvelles.",
 
     technos: [
       'React',
@@ -189,7 +189,7 @@ export const PROJETS = [
       {
         title: 'Gérer ses favoris',
         description:
-          "Dans la partie menu, on peut voir quelles sont les structures que l'on a mis en favoris et les enlever de nos favoris",
+          "Dans la partie menu, on peut voir quelles sont les structures que l'on a mis en favoris et les enlever de nos favoris.",
         image: './assets/WCS-babyplace/fav.png'
       },
       {
@@ -292,7 +292,7 @@ export const PROJETS = [
     organisation: 'Aubay',
     mainImage: './assets/Aubay-SVS/MAIN.png',
     objectif:
-      'Créer un site professionnel en front et en back tout en apprenant de nouveaux langages de programmation',
+      'Créer un site professionnel en front et en back tout en apprenant de nouveaux langages de programmation.',
 
     technos: [
       'Angular',
@@ -310,7 +310,7 @@ export const PROJETS = [
     ],
 
     gfait:
-      "J'ai participé à tout le développement front et back, à la création et la maintenance de la base de données, ainsi qu'à la création de tests unitaires. Le site devrait être en accessible fin septembre 2023",
+      "J'ai participé à tout le développement front et back, à la création et la maintenance de la base de données, ainsi qu'à la création de tests unitaires. Le site devrait être en accessible fin septembre 2023.",
     fonctions: [
       {
         title: "Présenter l'entreprise Aubay",
@@ -333,7 +333,7 @@ export const PROJETS = [
       {
         title: 'Dark mode',
         description:
-          'Un bouton présent dans la barre de navigation sert à changer le thème de couleur. Quand on arrive sur le site, le thème est en light, puis on peut le changer en dark mode',
+          'Un bouton présent dans la barre de navigation sert à changer le thème de couleur. Quand on arrive sur le site, le thème est en light, puis on peut le changer en dark mode.',
         image: './assets/Aubay-SVS/dark.png'
       },
       {
@@ -351,7 +351,7 @@ export const PROJETS = [
       {
         title: 'Exporter en PDF',
         description:
-          "Un autre bouton est présent pour exporter les projets en pdf. On y retrouve tout ce que l'on a sur la page projet. Le lien reste cliquable sur le PDF",
+          "Un autre bouton est présent pour exporter les projets en pdf. On y retrouve tout ce que l'on a sur la page projet. Le lien reste cliquable sur le PDF.",
         image: './assets/Aubay-SVS/pdf.png'
       },
 
@@ -364,7 +364,7 @@ export const PROJETS = [
       {
         title: 'Administrer les thèmes et activités.',
         description:
-          "Un petit formulaire est disponible pour ajouter ou modifier l'un de ces élements. On y entre les informations nécessaire et on enregistre",
+          "Un petit formulaire est disponible pour ajouter ou modifier l'un de ces élements. On y entre les informations nécessaire et on enregistre.",
         image: './assets/Aubay-SVS/adminTheme.png'
       },
       {

@@ -1,6 +1,6 @@
 <template>
   <div class="global-blog">
-    <h1>Mon blog</h1>
+    <h1>{{ $t('blog.titre') }}</h1>
 
     <section>
       <p>
@@ -8,11 +8,10 @@
           href="https://drive.google.com/file/d/1_dGXZabipBMyLFJ_tyoTrB8_2aoWPh8n/view?usp=sharing"
           target="_blank"
           class="ICI"
-          >ICI</a
+          >{{ $t('blog.ici') }}</a
         >
-        c'est le <span>dossier projet</span> que j'ai fait pour le passage de la certification - Il
-        a été réalisé sur la base du troisième projet fait durant ma formation à la Wild Code
-        School.
+        {{ $t('blog.doss_projet1') }} <span>{{ $t('blog.doss_projet2') }}</span>
+        {{ $t('blog.doss_projet3') }}
       </p>
       <br />
       <br />
@@ -21,12 +20,12 @@
           href="https://drive.google.com/file/d/1vJX-VTvsOiZ191m5MjXZ-z7wYUw7DDqr/view?usp=sharing"
           target="_blank"
           class="ICI"
-          >ICI</a
         >
-        c'est le <span>dossier professionnel</span> que j'ai fait pour le passage de la
-        certification - Il reprend les différents projets que j'ai pu faire jusque-là. Vous pouvez
-        les retrouver dans la section
-        <RouterLink to="/themes" class="ICI">Mes Projets</RouterLink>
+          {{ $t('blog.ici') }}
+        </a>
+        {{ $t('blog.doss_pro1') }} <span>{{ $t('blog.doss_pro2') }}</span>
+        {{ $t('blog.doss_pro3') }}
+        <RouterLink to="/themes" class="ICI">{{ $t('blog.doss_pro4') }}</RouterLink>
       </p>
     </section>
   </div>

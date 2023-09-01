@@ -3,9 +3,10 @@
 
 @import '../global.scss';
 
-@import '../components/navbar.scss';
-@import '../components/burger.scss';
-@import '../components/toggleDarkLight.scss';
+@import '../components/nav/navbar.scss';
+@import '../components/nav/burger.scss';
+@import '../components/nav/toggleDarkLight.scss';
+@import '../components/nav/toggleLanguage.scss';
 
 @import '../components/footer.scss';
 @import '../components/cardProjet.scss';
