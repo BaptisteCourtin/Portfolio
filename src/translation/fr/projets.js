@@ -396,6 +396,26 @@ export const PROJETSFR = [
     video: '',
     lienSite: '',
     lienGithub: ''
+  },
+  // -----
+  {
+    id: 7,
+    titre: 'Portfolio',
+    description: "C'est le site là, genre ... ici, enfait on est déjà dessus.",
+    technosPrincipales: ['Vue', 'JavaScript', 'SCSS'],
+
+    tailleEquipe: 'moi',
+    temps: '3 semaines, mais il y aura des mise à jour',
+    organisation: '',
+    mainImage: './assets/Portfolio/MAIN.png',
+    objectif:
+      'Trouver un travail, mettre tout mes projets intéressants au même endroit pour les retrouver facilement',
+
+    technos: ['Vue', 'JavaScript', 'SCSS', 'Git / GitHub'],
+
+    video: '',
+    lienSite: 'https://portfolio-baptiste-courtin.netlify.app/',
+    lienGithub: ''
   }
   // -----
 ]

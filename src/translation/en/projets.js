@@ -393,6 +393,25 @@ export const PROJETSEN = [
     video: '',
     lienSite: '',
     lienGithub: ''
+  },
+  // -----
+  {
+    id: 7,
+    titre: 'Portfolio',
+    description: "This is the site, like ... here, we're already on it.",
+    technosPrincipales: ['Vue', 'JavaScript', 'SCSS'],
+
+    tailleEquipe: 'me',
+    temps: '3 weeks, but there will be updates',
+    organisation: '',
+    mainImage: './assets/Portfolio/MAIN.png',
+    objectif: 'Find a job, put all my interesting projects in one place so I can find them easily',
+
+    technos: ['Vue', 'JavaScript', 'SCSS', 'Git / GitHub'],
+
+    video: '',
+    lienSite: 'https://portfolio-baptiste-courtin.netlify.app/',
+    lienGithub: ''
   }
   // -----
 ]

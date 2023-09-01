@@ -54,9 +54,9 @@ export default {
       <li v-for="techno in myPrj.technos" :class="techno">{{ techno }}</li>
     </ul>
 
-    <span class="trait"></span>
+    <span class="trait" v-if="myPrj.fonctions"></span>
 
-    <section class="gfe">
+    <section class="gfe" v-if="myPrj.gfait || myPrj.fonctions">
       <p v-if="myPrj.gfait" class="myJob">
         <span>Ce que j'ai fait (développé ci-après) :</span> {{ myPrj.gfait }}
       </p>

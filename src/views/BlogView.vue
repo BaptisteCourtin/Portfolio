@@ -27,6 +27,17 @@
         {{ $t('blog.doss_pro3') }}
         <RouterLink to="/themes" class="ICI">{{ $t('blog.doss_pro4') }}</RouterLink>
       </p>
+      <br />
+      <br />
+      <p>
+        <a
+          href="https://docs.google.com/presentation/d/1I6ZxwtqlLFDMAAFvLns9ozyKtiqkaFWT/edit?usp=drive_link&ouid=116445626505765671235&rtpof=true&sd=true"
+          target="_blank"
+          class="ICI"
+          >{{ $t('blog.ici') }}</a
+        >
+        {{ $t('blog.pres1') }}
+      </p>
     </section>
   </div>
 </template>
