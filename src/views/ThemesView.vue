@@ -57,7 +57,7 @@ export default {
 
     <button @click="sortBy('id')">
       <span>
-        {{ sortOrder === 1 ? 'Les plus récents avant' : 'Les plus anciens avant' }}
+        {{ sortOrder === 1 ? $t('theme.recents') : $t('theme.anciens') }}
       </span>
     </button>
 

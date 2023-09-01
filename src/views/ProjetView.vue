@@ -6,26 +6,29 @@ export default {
   data() {
     return {
       projectId: null,
-      myPrj: null // Nouvelle propriété pour stocker les détails du projet
+      myPrj: null,
+      currentLanguage: this.$i18next.language // Stocke la langue actuelle
     }
+  },
+  watch: {
+    '$i18next.language': 'languageChanged' // Surveille les changements de langue
   },
   created() {
     this.projectId = this.$route.params.id
-    this.fetchProjectDetails() // Appel initial pour charger les détails du projet
-  },
-  computed: {
-    sortedProjects() {
-      this.fetchProjectDetails()
-    }
+    this.fetchProjectDetails()
   },
   methods: {
     fetchProjectDetails() {
-      if (this.$i18next.language == 'en') {
+      if (this.currentLanguage == 'en') {
         this.myPrj = PROJETSEN[this.projectId - 1]
       } else {
         this.myPrj = PROJETSFR[this.projectId - 1]
       }
-      // Tu peux maintenant accéder à this.myPrj dans le template
+    },
+    languageChanged(newLanguage) {
+      // Met à jour la langue actuelle et recharge les détails du projet
+      this.currentLanguage = newLanguage
+      this.fetchProjectDetails()
     }
   }
 }

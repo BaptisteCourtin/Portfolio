@@ -10,6 +10,9 @@ export default {
 
 <template>
   <div class="toggle-language">
+    <div class="container-stars">
+      <div class="stars"></div>
+    </div>
     <button @click="changeLanguage('fr')">FR</button>
     <button @click="changeLanguage('en')">EN</button>
   </div>
