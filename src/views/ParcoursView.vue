@@ -112,7 +112,7 @@ export default {
     <h2>{{ $t('parcours.CertifTitre') }}</h2>
     <div class="container-xp">
       <h4>{{ $t('parcours.Certif1Titre') }}</h4>
-      <p class="date">{{ $t('Certif1Date') }}</p>
+      <p class="date">{{ $t('parcours.Certif1Date') }}</p>
       <p>
         {{ $t('parcours.Certif1Desc') }}
         <a

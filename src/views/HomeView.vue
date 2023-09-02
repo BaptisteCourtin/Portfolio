@@ -55,7 +55,7 @@ library.add(faArrowRight, faArrowLeftLong, faUpLong, faArrowTurnDown, faArrowRot
         <font-awesome-icon class="fa-solid" icon="fa-arrow-trend-down" />
         <p>
           <a
-          href="https://drive.google.com/file/d/1RotGczuEcBPaLRzidQrq4pCItXJc6Tub/view?usp=sharing"
+          href="https://drive.google.com/file/d/1gurHMCeUayjvGIYSBpYY24YAiUiw6At3/view?usp=drive_link"
           target="_blank"
           > <span class="ICI">{{ $t("accueil.la") }}</span> {{ $t("accueil.cv") }}
         </a>
