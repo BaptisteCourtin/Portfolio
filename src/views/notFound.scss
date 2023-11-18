@@ -1,5 +1,169 @@
 .global-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+
+  width: 100%;
+
   h1 {
-    color: red;
+    color: var(--background);
+    font-family: sans-serif;
+  }
+
+  .glitch {
+    font-size: 16rem;
+    position: relative;
+    animation: glitch-skew 0.7s infinite linear alternate-reverse;
+
+    &::after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      text-shadow:
+        -2px 0 #00fff9,
+        2px 2px #ff00c1;
+      animation: glitch-anim2 2s infinite linear alternate-reverse;
+    }
+  }
+
+  @media screen and (max-width: 545px) {
+    .glitch {
+      font-size: 12rem;
+    }
+  }
+
+  @media screen and (max-width: 411px) {
+    .glitch {
+      font-size: 8.5rem;
+    }
+  }
+}
+
+@keyframes glitch-anim2 {
+  0% {
+    clip: rect(264px, 9999px, 112px, 0);
+    transform: skew(0.12deg);
+  }
+  5% {
+    clip: rect(340px, 9999px, 160px, 0);
+    transform: skew(0.7deg);
+  }
+  10% {
+    clip: rect(56px, 9999px, 132px, 0);
+    transform: skew(0.81deg);
+  }
+  15% {
+    clip: rect(192px, 9999px, 304px, 0);
+    transform: skew(0.57deg);
+  }
+  20% {
+    clip: rect(308px, 9999px, 64px, 0);
+    transform: skew(0.4deg);
+  }
+  25% {
+    clip: rect(60px, 9999px, 172px, 0);
+    transform: skew(0.27deg);
+  }
+  30% {
+    clip: rect(132px, 9999px, 44px, 0);
+    transform: skew(0.84deg);
+  }
+  35% {
+    clip: rect(200px, 9999px, 204px, 0);
+    transform: skew(0.16deg);
+  }
+  40% {
+    clip: rect(208px, 9999px, 44px, 0);
+    transform: skew(0.21deg);
+  }
+  45% {
+    clip: rect(156px, 9999px, 232px, 0);
+    transform: skew(0.98deg);
+  }
+  50% {
+    clip: rect(352px, 9999px, 168px, 0);
+    transform: skew(0.42deg);
+  }
+  55% {
+    clip: rect(392px, 9999px, 44px, 0);
+    transform: skew(0.51deg);
+  }
+  60% {
+    clip: rect(292px, 9999px, 292px, 0);
+    transform: skew(0.81deg);
+  }
+  65% {
+    clip: rect(328px, 9999px, 236px, 0);
+    transform: skew(1deg);
+  }
+  70% {
+    clip: rect(256px, 9999px, 336px, 0);
+    transform: skew(0.94deg);
+  }
+  75% {
+    clip: rect(164px, 9999px, 176px, 0);
+    transform: skew(0.38deg);
+  }
+  80% {
+    clip: rect(92px, 9999px, 140px, 0);
+    transform: skew(0.54deg);
+  }
+  85% {
+    clip: rect(80px, 9999px, 400px, 0);
+    transform: skew(0.76deg);
+  }
+  90% {
+    clip: rect(36px, 9999px, 384px, 0);
+    transform: skew(0.64deg);
+  }
+  95% {
+    clip: rect(116px, 9999px, 328px, 0);
+    transform: skew(0.47deg);
+  }
+  100% {
+    clip: rect(60px, 9999px, 376px, 0);
+    transform: skew(0.76deg);
+  }
+}
+
+@keyframes glitch-skew {
+  0% {
+    transform: skew(2deg);
+  }
+  10% {
+    transform: skew(4deg);
+  }
+  20% {
+    transform: skew(4deg);
+  }
+  30% {
+    transform: skew(-2deg);
+  }
+  40% {
+    transform: skew(4deg);
+  }
+  50% {
+    transform: skew(2deg);
+  }
+  60% {
+    transform: skew(-3deg);
+  }
+  70% {
+    transform: skew(-1deg);
+  }
+  80% {
+    transform: skew(-3deg);
+  }
+  90% {
+    transform: skew(-2deg);
+  }
+  100% {
+    transform: skew(-2deg);
   }
 }
