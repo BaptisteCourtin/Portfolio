@@ -59,6 +59,6 @@ export default {
         @click="toggleNavbar()"
       />
     </div>
-    <Footer class="global-footer"></Footer>
+    <Footer></Footer>
   </div>
 </template>

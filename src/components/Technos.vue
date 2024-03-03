@@ -23,7 +23,12 @@
         <li>React<img src="../assets/logos/react.png" alt="logo" loading="lazy" /></li>
         <li>Angular<img src="../assets/logos/angular.png" alt="logo" loading="lazy" /></li>
         <li>Vue<img src="../assets/logos/vue.png" alt="logo" loading="lazy" /></li>
+        <li>Astro<img src="../assets/logos/astro.png" alt="logo" loading="lazy" /></li>
         <li>React Native<img src="../assets/logos/react.png" alt="logo" loading="lazy" /></li>
+        <li>PHP<img src="../assets/logos/php.png" alt="logo" loading="lazy" /></li>
+        <li>Laravel<img src="../assets/logos/laravel.png" alt="logo" loading="lazy" /></li>
+        <li>JSF<img src="../assets/logos/jsf.png" alt="logo" loading="lazy" /></li>
+        <li>Primefaces<img src="../assets/logos/primefaces.png" alt="logo" loading="lazy" /></li>
       </ul>
     </div>
 
@@ -36,7 +41,21 @@
         <li>
           Java Springboot<img src="../assets/logos/springboot.png" alt="logo" loading="lazy" />
         </li>
+        <li>TypeORM<img src="../assets/logos/typeORM.png" alt="logo" loading="lazy" /></li>
+        <li>GraphQL<img src="../assets/logos/graphQL.png" alt="logo" loading="lazy" /></li>
+        <li>TypeGraphQL<img src="../assets/logos/typeGraphQL.png" alt="logo" loading="lazy" /></li>
+      </ul>
+    </div>
+
+    <div class="cadre">
+      <h4>{{ $t('technos.bdd') }}</h4>
+      <ul>
         <li>SQL<img src="../assets/logos/sql.png" alt="logo" loading="lazy" /></li>
+        <li>MySQLWorkbench<img src="../assets/logos/workbench.png" alt="logo" loading="lazy" /></li>
+        <li>PgAdmin<img src="../assets/logos/pgadmin.png" alt="logo" loading="lazy" /></li>
+        <li>HeidiSQL<img src="../assets/logos/heidiSQL.png" alt="logo" loading="lazy" /></li>
+        <li>AWS<img src="../assets/logos/aws.png" alt="logo" loading="lazy" /></li>
+        <li>Google Cloud<img src="../assets/logos/googleCloud.png" alt="logo" loading="lazy" /></li>
       </ul>
     </div>
 
@@ -44,21 +63,24 @@
       <h4>{{ $t('technos.outils') }}</h4>
       <ul>
         <li>
-          Git / Github / Gitlab<img src="../assets/logos/git.png" alt="logo" loading="lazy" /><img
-            src="../assets/logos/github.png"
+          Git / Github / Gitlab / GitTortoise<img
+            src="../assets/logos/git.png"
             alt="logo"
             loading="lazy"
-          /><img src="../assets/logos/gitlab.png" alt="logo" loading="lazy" />
+          /><img src="../assets/logos/github.png" alt="logo" loading="lazy" /><img
+            src="../assets/logos/gitlab.png"
+            alt="logo"
+            loading="lazy"
+          />
+          <img src="../assets/logos/gitTortoise.png" alt="logo" loading="lazy" />
         </li>
-        <li>MySQLWorkbench<img src="../assets/logos/workbench.png" alt="logo" loading="lazy" /></li>
-        <li>PostgreSQL<img src="../assets/logos/pgadmin.png" alt="logo" loading="lazy" /></li>
-        <li>PgAdmin<img src="../assets/logos/pgadmin.png" alt="logo" loading="lazy" /></li>
         <li>jenkins<img src="../assets/logos/jenkins.png" alt="logo" loading="lazy" /></li>
         <li>SonarQube<img src="../assets/logos/sonar.png" alt="logo" loading="lazy" /></li>
-        <li>AWS<img src="../assets/logos/aws.png" alt="logo" loading="lazy" /></li>
-        <li>Google Cloud<img src="../assets/logos/googleCloud.png" alt="logo" loading="lazy" /></li>
         <li>Jira<img src="../assets/logos/jira.png" alt="logo" loading="lazy" /></li>
+        <li>Mantis<img src="../assets/logos/mantis.png" alt="logo" loading="lazy" /></li>
         <li>Figma<img src="../assets/logos/figma.png" alt="logo" loading="lazy" /></li>
+        <li>Docker<img src="../assets/logos/docker.png" alt="logo" loading="lazy" /></li>
+        <li>Talend<img src="../assets/logos/talend.png" alt="logo" loading="lazy" /></li>
       </ul>
     </div>
 

@@ -11,8 +11,8 @@
   --black: #131313;
   --soft-black: #2d3132;
 
-  --gold-light: #ffd700;
-  --gold-dark: #ff8000;
+  --gold-dark: #ffd700;
+  --gold-light: #ff8000;
 
   --blue-light: #00d0ff;
   --blue-dark: #00d0ff;
@@ -43,7 +43,7 @@
   --color: var(--black);
   --color-soft: var(--soft-black);
 
-  --gold: var(--gold-dark);
+  --gold: var(--gold-light);
   --blue: var(--blue-dark);
   --violet: var(--violet-dark);
 }
@@ -56,7 +56,7 @@
   --color: var(--white);
   --color-soft: var(--soft-white);
 
-  --gold: var(--gold-light);
+  --gold: var(--gold-dark);
   --blue: var(--blue-dark);
   --violet: var(--violet-dark);
 }

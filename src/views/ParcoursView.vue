@@ -16,6 +16,58 @@ export default {
     </div>
 
     <div>
+      <h3>{{ $t('parcours.AlternanceTitre') }}</h3>
+      <div class="container-xp">
+        <p class="date">{{ $t('parcours.AlternanceDate') }}</p>
+        <ul>
+          <li class="PHP">PHP</li>
+          <li class="Laravel">Laravel</li>
+          <li class="Java">Java</li>
+          <li class="JSF">JSF</li>
+          <li class="Primefaces">Primefaces</li>
+
+          <li class="Git">GitTortoise / GitLab</li>
+          <li class="SQL">SQL</li>
+          <li class="HeidiSQL">HeidiSQL</li>
+
+          <li class="Jira">Jira</li>
+          <li class="Mantis">Mantis</li>
+          <li class="Talend">Talend</li>
+          <li class="VSCode">VSCode</li>
+          <li class="Eclipse">Eclipse</li>
+        </ul>
+        <ul>
+          <li class="TypeScript">TypeScript</li>
+          <li class="React">React</li>
+          <li class="React">React Native</li>
+          <li class="NodeJS">Node.js</li>
+          <li class="Express">Express</li>
+          <li class="GraphQL">GraphQL</li>
+          <li class="TypeGraphQL">TypeGraphQL</li>
+          <li class="TypeORM">TypeORM</li>
+
+          <li class="Git">Git / GitHub</li>
+          <li class="SQL">SQL</li>
+
+          <li class="Docker">Docker</li>
+          <li class="VSCode">VSCode</li>
+        </ul>
+        <p>
+          {{ $t('parcours.AlternanceDesc1') }}
+          <br />
+          <br />
+          {{ $t('parcours.AlternanceDesc2') }}
+          <br />
+          <br />
+          {{ $t('parcours.AlternanceDesc3') }}
+          <br />
+          <br />
+          {{ $t('parcours.AlternanceDesc4') }}
+        </p>
+      </div>
+    </div>
+
+    <div>
       <h3>{{ $t('parcours.AubayTitre') }}</h3>
       <div class="container-xp">
         <p class="date">{{ $t('parcours.AubayDate') }}</p>
@@ -26,7 +78,7 @@ export default {
           <li class="Springboot">Java Springboot</li>
           <li class="SQL">SQL</li>
 
-          <li class="Git">Git / Gitlab</li>
+          <li class="Git">Git / GitLab</li>
           <li class="PgAdmin">PgAdmin</li>
           <li class="Jenkins">Jenkins</li>
           <li class="SonarQube">SonarQube</li>
@@ -63,7 +115,7 @@ export default {
           <li class="SCSS">SCSS</li>
           <li class="React-Native">React Native</li>
 
-          <li class="Git">Git / Gitlab</li>
+          <li class="Git">Git / GitHub</li>
           <li class="NodeJS">Node.js</li>
           <li class="Express">Express</li>
           <li class="SQL">SQL</li>

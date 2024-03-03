@@ -62,7 +62,7 @@ library.add(
         <font-awesome-icon class="fa-solid" icon="fa-angles-down" />
         <font-awesome-icon class="fa-solid" icon="fa-arrow-turn-down" />
         <font-awesome-icon class="fa-solid" icon="fa-arrow-trend-down" />
-        <p>
+        <p class="entoureCV">
           <a
             href="https://drive.google.com/file/d/1gurHMCeUayjvGIYSBpYY24YAiUiw6At3/view?usp=drive_link"
             target="_blank"

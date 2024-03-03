@@ -4,7 +4,7 @@
 
   .wrapper-right-left {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     background-color: var(--background);
@@ -14,6 +14,7 @@
       padding: 4rem;
       color: var(--color);
       margin-right: 17rem; // taille navbar
+      max-width: 1260px;
 
       h1 {
         text-align: center;
@@ -32,10 +33,6 @@
       right: 1rem;
       border-radius: 10px;
     }
-  }
-
-  .global-footer {
-    margin-right: 17rem; // taille navbar
   }
 
   @media screen and (max-width: 1200px) {
@@ -107,7 +104,8 @@
   .TypeScript {
     background-color: #2d79c7;
   }
-  .React {
+  .React,
+  .React-Native {
     background-color: #61dbfb;
   }
   .Angular {
@@ -116,12 +114,23 @@
   .Vue {
     background-color: #3fb984;
   }
-  .React-Native {
-    background-color: #61dbfb;
+  .Astro {
+    background-color: #ff5505;
   }
-  .NodeJS {
-    background-color: #529f41;
+  .PHP {
+    background-color: #777bb3;
   }
+  .Laravel {
+    background-color: #fe2d20;
+  }
+  .JSF {
+    background-color: #4db8ee;
+  }
+  .Primefaces {
+    background-color: #d0d8dc;
+  }
+  // ---
+  .NodeJS,
   .Express {
     background-color: #529f41;
   }
@@ -131,11 +140,18 @@
   .Springboot {
     background-color: #6db33f;
   }
+  .TypeORM {
+    background-color: #feab01;
+  }
+  .GraphQL {
+    background-color: #e535ab;
+  }
+  .TypeGraphQL {
+    background-color: #b02a80;
+  }
+  // ---
   .SQL {
     background-color: #da7636;
-  }
-  .Git {
-    background-color: #f05033;
   }
   .MySQLWorkbench {
     background-color: #edf9fd;
@@ -144,11 +160,8 @@
   .PostgreSQL {
     background-color: #2f6792;
   }
-  .Jenkins {
-    background-color: #f0d7b8;
-  }
-  .SonarQube {
-    background-color: #499cd2;
+  .HeidiSQL {
+    background-color: #3b9400;
   }
   .AWS {
     background-color: #ff8e04;
@@ -156,11 +169,42 @@
   .Google-Cloud {
     background-color: #fbbc05;
   }
+  // ---
+  .Git {
+    background-color: #f05033;
+  }
+  // .GitHub {
+  //   background-color: #000000;
+  // }
+  // .GitLab {
+  //   background-color: #fc6d26;
+  // }
+  // .GitTortoise {
+  //   background-color: #4b8eb4;
+  // }
   .Jira {
     background-color: #2684ff;
   }
+  .Mantis {
+    background-color: #85c226;
+  }
   .Figma {
     background-color: #a359ff;
+  }
+  .Excalidraw {
+    background-color: #000000;
+  }
+  .Jenkins {
+    background-color: #f0d7b8;
+  }
+  .SonarQube {
+    background-color: #499cd2;
+  }
+  .Docker {
+    background-color: #2597ee;
+  }
+  .Talend {
+    background-color: #82bd41;
   }
   .VSCode {
     background-color: #1389d2;
