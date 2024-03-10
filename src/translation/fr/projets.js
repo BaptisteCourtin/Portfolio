@@ -206,7 +206,7 @@ export const PROJETSFR = [
     ],
 
     video: '',
-    lienSite: 'http://vps-d5babf40.vps.ovh.net:5006/',
+    lienSite: '',
     lienGithub: 'https://github.com/BaptisteCourtin/babyplace'
   },
   // -----
@@ -310,7 +310,7 @@ export const PROJETSFR = [
     ],
 
     gfait:
-      "J'ai participé à tout le développement front et back, à la création et la maintenance de la base de données, ainsi qu'à la création de tests unitaires. Le site devrait être en accessible fin septembre 2023.",
+      "J'ai participé à tout le développement front et back, à la création et la maintenance de la base de données, ainsi qu'à la création de tests unitaires.",
     fonctions: [
       {
         title: "Présenter l'entreprise Aubay",

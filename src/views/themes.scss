@@ -17,7 +17,7 @@
     background-color: var(--background-soft);
     border: 0.08em solid var(--color-soft);
     border-radius: 0.3em;
-    font-size: 12px;
+    font-size: var(--button-tri);
 
     span {
       position: relative;
@@ -32,7 +32,7 @@
       background-color: var(--background-soft);
       color: var(--color-soft);
       border-radius: 0.2em;
-      font-size: 1.5em;
+      font-size: 1.5em; // ne pas changer
 
       border: 0.08em solid var(--color-soft);
       box-shadow: 0 0.4em 0.1em 0.02em var(--color-soft);

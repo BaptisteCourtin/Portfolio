@@ -16,7 +16,7 @@ export default {
     </div>
 
     <div>
-      <h3>{{ $t('parcours.AlternanceTitre') }}</h3>
+      <h2>{{ $t('parcours.AlternanceTitre') }}</h2>
       <div class="container-xp">
         <p class="date">{{ $t('parcours.AlternanceDate') }}</p>
         <ul>
@@ -68,7 +68,7 @@ export default {
     </div>
 
     <div>
-      <h3>{{ $t('parcours.AubayTitre') }}</h3>
+      <h2>{{ $t('parcours.AubayTitre') }}</h2>
       <div class="container-xp">
         <p class="date">{{ $t('parcours.AubayDate') }}</p>
         <ul>
@@ -104,7 +104,7 @@ export default {
     </div>
 
     <div>
-      <h3>{{ $t('parcours.WCSTitre') }}</h3>
+      <h2>{{ $t('parcours.WCSTitre') }}</h2>
       <div class="container-xp">
         <p class="date">{{ $t('parcours.WCSDate') }}</p>
         <ul>
@@ -144,7 +144,7 @@ export default {
     </div>
 
     <div>
-      <h3>{{ $t('parcours.FacTitre') }}</h3>
+      <h2>{{ $t('parcours.FacTitre') }}</h2>
       <div class="container-xp">
         <p class="date">{{ $t('parcours.FacDate') }}</p>
         <p>
@@ -162,8 +162,17 @@ export default {
     <span class="trait"></span>
 
     <h2>{{ $t('parcours.CertifTitre') }}</h2>
+
     <div class="container-xp">
-      <h4>{{ $t('parcours.Certif1Titre') }}</h4>
+      <h3>{{ $t('parcours.Certif2Titre') }}</h3>
+      <p class="date">{{ $t('parcours.Certif2Date') }}</p>
+      <p>
+        {{ $t('parcours.Certif2Desc') }}
+      </p>
+    </div>
+
+    <div class="container-xp">
+      <h3>{{ $t('parcours.Certif1Titre') }}</h3>
       <p class="date">{{ $t('parcours.Certif1Date') }}</p>
       <p>
         {{ $t('parcours.Certif1Desc') }}
@@ -176,18 +185,10 @@ export default {
       </p>
     </div>
 
-    <div class="container-xp">
-      <h4>{{ $t('parcours.Certif2Titre') }}</h4>
-      <p class="date">{{ $t('parcours.Certif2Date') }}</p>
-      <p>
-        {{ $t('parcours.Certif2Desc') }}
-      </p>
-    </div>
-
     <span class="trait"></span>
 
     <div>
-      <p>
+      <p class="redite">
         {{ $t('parcours.technos') }}
       </p>
       <Technos />

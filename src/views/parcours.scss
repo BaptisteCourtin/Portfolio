@@ -8,10 +8,6 @@
   text-align: center;
   width: 100%;
 
-  h2 {
-    text-decoration: underline;
-  }
-
   .container-xp {
     display: flex;
     flex-direction: column;
@@ -25,7 +21,6 @@
     border-radius: 20px;
 
     p {
-      font-size: 1.2rem;
       line-height: 1.5rem;
       word-spacing: 0.15rem;
     }
@@ -54,5 +49,10 @@
         border: 1px solid var(--background);
       }
     }
+  }
+
+  .redite {
+    font-size: var(--redite);
+    margin-bottom: 1rem;
   }
 }

@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   vertical-align: baseline;
-  font-size: 100%;
 }
 
 *::before,
@@ -28,34 +27,33 @@ body {
 }
 
 p {
-  line-height: 1.3rem;
+  // p de base
+  font-size: var(--fs-p);
 }
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: var(--font-title);
 }
 
 h1 {
+  // titre page
   font-size: var(--fs-h1);
   font-weight: var(--fw-h1);
+  text-align: center;
 }
 
 h2 {
+  // titre partie
   font-size: var(--fs-h2);
   font-weight: var(--fw-h2);
 }
 
 h3 {
+  // sous titre partie
   font-size: var(--fs-h3);
   font-weight: var(--fw-h3);
-}
-
-h4 {
-  font-size: var(--fs-h4);
-  font-weight: var(--fw-h4);
 }
 
 button {
@@ -76,14 +74,6 @@ ul {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-// ---
-
-.ICI {
-  font-weight: 800;
-  color: var(--gold);
-  font-style: italic;
 }
 
 /* --- */

@@ -13,13 +13,14 @@
   margin-top: 2rem;
   margin-right: 17rem; // taille navbar
 
+  font-size: var(--fs-p);
+
   .mesLiens {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    font-size: 1.3rem;
 
     a:hover {
       color: var(--gold);
@@ -32,12 +33,18 @@
       align-items: center;
 
       span {
-        font-size: 0.7rem;
+        font-size: var(--little-p);
       }
     }
   }
 
   .myTag {
-    font-size: 0.7rem;
+    font-size: var(--little-p);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .global-footer {
+    margin-right: 0rem; // taille navbar
   }
 }

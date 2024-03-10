@@ -40,10 +40,18 @@ export default {
     <section class="global">
       <div class="text">
         <p class="main-desc">{{ myPrj.description }}</p>
-        <p><span>Taille de l'équipe :</span> {{ myPrj.tailleEquipe }}</p>
-        <p><span>Temps :</span> {{ myPrj.temps }}</p>
-        <p v-if="myPrj.organisation"><span>Entreprise :</span> {{ myPrj.organisation }}</p>
-        <p><span>Objectif :</span> {{ myPrj.objectif }}</p>
+        <p>
+          <span>{{ $t('projet.taille') }} :</span> {{ myPrj.tailleEquipe }}
+        </p>
+        <p>
+          <span>{{ $t('projet.temps') }} :</span> {{ myPrj.temps }}
+        </p>
+        <p v-if="myPrj.organisation">
+          <span>{{ $t('projet.entreprise') }} :</span> {{ myPrj.organisation }}
+        </p>
+        <p>
+          <span>{{ $t('projet.objectif') }} :</span> {{ myPrj.objectif }}
+        </p>
       </div>
       <img :src="'/' + myPrj.mainImage" alt="img-projet" loading="lazy" />
     </section>
@@ -58,12 +66,12 @@ export default {
 
     <section class="gfe" v-if="myPrj.gfait || myPrj.fonctions">
       <p v-if="myPrj.gfait" class="myJob">
-        <span>Ce que j'ai fait (développé ci-après) :</span> {{ myPrj.gfait }}
+        <span>{{ $t('projet.gfait') }} :</span> {{ myPrj.gfait }}
       </p>
       <div v-for="func in myPrj.fonctions" class="full-container-func">
         <div class="container-func">
           <div class="func-text">
-            <h4>{{ func.title }}</h4>
+            <h3>{{ func.title }}</h3>
             <p>{{ func.description }}</p>
           </div>
           <img v-if="func.image" :src="'/' + func.image" alt="img-func" loading="lazy" />
@@ -78,13 +86,15 @@ export default {
 
     <section class="liens">
       <p v-if="myPrj.lienSite">
-        Le<a :href="myPrj.lienSite" target="_blank" class="ICI"> lien</a> vers le site en ligne
+        {{ $t('projet.le')
+        }}<a :href="myPrj.lienSite" target="_blank" class="ICI"> {{ $t('projet.lien') }}</a>
+        {{ $t('projet.versEnLigne') }}
       </p>
 
       <p v-if="myPrj.lienGithub">
-        Le
-        <a :href="myPrj.lienGithub" target="_blank" class="ICI"> lien</a>
-        vers le repo Github
+        {{ $t('projet.le') }}
+        <a :href="myPrj.lienGithub" target="_blank" class="ICI"> {{ $t('projet.lien') }}</a>
+        {{ $t('projet.versGithub') }}
       </p>
     </section>
   </div>

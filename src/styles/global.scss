@@ -1,93 +1,20 @@
+.ICI {
+  // les liens cliquables
+  font-weight: 800;
+  color: var(--gold);
+  font-style: italic;
+}
+
+span.trait {
+  width: 40%;
+  height: 0.25rem;
+  border-radius: 500px;
+  background-color: var(--color-soft);
+  margin: 1rem 0;
+}
+
 .global-wrapper {
-  background-color: var(--background);
-  position: relative;
-
-  .wrapper-right-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color: var(--background);
-    min-height: 100vh;
-
-    .global-pages {
-      padding: 4rem;
-      color: var(--color);
-      margin-right: 17rem; // taille navbar
-      max-width: 1260px;
-
-      h1 {
-        text-align: center;
-      }
-    }
-
-    .bigNavbar {
-      min-width: 17rem;
-      max-width: 17rem;
-    }
-
-    .burgerNavbar {
-      display: none;
-      position: fixed;
-      top: 1rem;
-      right: 1rem;
-      border-radius: 10px;
-    }
-  }
-
-  @media screen and (max-width: 1200px) {
-    .wrapper-right-left {
-      .global-pages {
-        padding: 1rem;
-      }
-    }
-  }
-
-  @media screen and (max-width: 800px) {
-    .wrapper-right-left {
-      .global-pages {
-        padding: 1rem;
-        margin-right: 0rem; // taille navbar
-      }
-
-      .bigNavbar {
-        border-left: 1px solid var(--gold);
-        transform: translate(17rem);
-        transition: all 0.5s;
-
-        li {
-          display: none;
-        }
-
-        &.open {
-          display: flex;
-          transform: translate(0rem);
-
-          li {
-            display: flex;
-          }
-        }
-      }
-
-      .burgerNavbar {
-        display: block;
-      }
-    }
-    .global-footer {
-      margin-right: 0rem; // taille navbar
-    }
-  }
-
-  span.trait {
-    width: 40%;
-    height: 0.25rem;
-    border-radius: 500px;
-    background-color: var(--color-soft);
-    margin: 1rem 0;
-  }
-
-  // --- couleur pour les technos ---
-
+  // couleur pour les technos
   .HTML {
     background-color: #e54c21;
   }

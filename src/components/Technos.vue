@@ -1,9 +1,9 @@
 <template>
   <div class="global-techno">
-    <h3>{{ $t('technos.titre') }}</h3>
+    <h2>{{ $t('technos.titre') }}</h2>
 
     <div class="cadre">
-      <h4>{{ $t('technos.front') }}</h4>
+      <h3>{{ $t('technos.front') }}</h3>
       <ul>
         <li>HTML <img src="../assets/logos/html.png" alt="logo" loading="lazy" /></li>
         <li>
@@ -33,7 +33,7 @@
     </div>
 
     <div class="cadre">
-      <h4>{{ $t('technos.back') }}</h4>
+      <h3>{{ $t('technos.back') }}</h3>
       <ul>
         <li>Node.js<img src="../assets/logos/node.png" alt="logo" loading="lazy" /></li>
         <li>Express<img src="../assets/logos/node.png" alt="logo" loading="lazy" /></li>
@@ -48,7 +48,7 @@
     </div>
 
     <div class="cadre">
-      <h4>{{ $t('technos.bdd') }}</h4>
+      <h3>{{ $t('technos.bdd') }}</h3>
       <ul>
         <li>SQL<img src="../assets/logos/sql.png" alt="logo" loading="lazy" /></li>
         <li>MySQLWorkbench<img src="../assets/logos/workbench.png" alt="logo" loading="lazy" /></li>
@@ -60,7 +60,7 @@
     </div>
 
     <div class="cadre">
-      <h4>{{ $t('technos.outils') }}</h4>
+      <h3>{{ $t('technos.outils') }}</h3>
       <ul>
         <li>
           Git / Github / Gitlab / GitTortoise<img
@@ -85,7 +85,7 @@
     </div>
 
     <div class="cadre">
-      <h4>{{ $t('technos.env') }}</h4>
+      <h3>{{ $t('technos.env') }}</h3>
       <ul>
         <li>VSCode<img src="../assets/logos/vscode.png" alt="logo" loading="lazy" /></li>
         <li>Eclipse<img src="../assets/logos/eclipse.png" alt="logo" loading="lazy" /></li>
@@ -93,7 +93,7 @@
     </div>
 
     <div class="cadre">
-      <h4>{{ $t('technos.langues') }}</h4>
+      <h3>{{ $t('technos.langues') }}</h3>
       <ul>
         <li>
           {{ $t('technos.fr') }}<img src="../assets/logos/fr.png" alt="logo" loading="lazy" />

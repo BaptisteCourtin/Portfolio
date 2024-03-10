@@ -10,7 +10,6 @@
   p {
     span {
       text-decoration: underline;
-      font-size: 1.1rem;
     }
   }
 
@@ -117,7 +116,7 @@
           justify-self: flex-start;
           align-self: center;
 
-          h4 {
+          h3 {
             text-decoration: underline;
           }
         }
@@ -139,7 +138,7 @@
       }
 
       .points {
-        font-size: 2rem;
+        font-size: var(--points-projets);
         font-weight: 700;
         letter-spacing: 0.5rem;
       }

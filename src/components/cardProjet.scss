@@ -61,8 +61,8 @@
       .text {
         padding: 0.5rem;
 
-        h4 {
-          margin: 1rem 0;
+        h3 {
+          margin: 0.9rem 0;
           transition: 0.5s;
         }
 
@@ -72,6 +72,7 @@
           display: -webkit-box;
           -webkit-line-clamp: 3;
           -webkit-box-orient: vertical;
+          font-size: var(--p-card-prj);
         }
       }
 
@@ -85,7 +86,7 @@
         align-items: center;
         gap: 0.5rem;
 
-        li {
+        li p {
           text-shadow:
             0 0 0.5rem var(--background),
             0 0 0.7rem var(--background),
@@ -94,6 +95,7 @@
           border-radius: 10px;
           font-weight: 500;
           border: 1px solid var(--background);
+          font-size: var(--p-card-prj);
         }
       }
     }
@@ -111,8 +113,8 @@
       transform: translateY(170px);
 
       .text {
-        h4 {
-          margin: 0.5rem 0;
+        h3 {
+          margin: 0.4rem;
         }
       }
     }
@@ -121,8 +123,8 @@
   // --- glow ---
 
   &:hover {
-    h4 {
-      letter-spacing: 0.2rem;
+    h3 {
+      letter-spacing: 0.1rem;
     }
   }
 

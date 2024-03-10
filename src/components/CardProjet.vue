@@ -23,17 +23,13 @@ export default {
     <div class="hidden">
       <div class="info">
         <div class="text">
-          <h4>{{ prj.titre }}</h4>
+          <h3>{{ prj.titre }}</h3>
           <p>{{ prj.description }}</p>
         </div>
         <ul>
-          <section
-            class="wrapper-card-project"
-            v-for="techno in prj.technosPrincipales"
-            :key="prj.id"
-          >
-            <li :class="techno">{{ techno }}</li>
-          </section>
+          <li class="wrapper-card-project" v-for="techno in prj.technosPrincipales" :key="prj.id">
+            <p :class="techno">{{ techno }}</p>
+          </li>
         </ul>
       </div>
     </div>

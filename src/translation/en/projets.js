@@ -204,7 +204,7 @@ export const PROJETSEN = [
     ],
 
     video: '',
-    lienSite: 'http://vps-d5babf40.vps.ovh.net:5006/',
+    lienSite: '',
     lienGithub: 'https://github.com/BaptisteCourtin/babyplace'
   },
   // -----
@@ -307,7 +307,7 @@ export const PROJETSEN = [
     ],
 
     gfait:
-      'I was involved in all the front and back-end development, the creation and maintenance of the database, and the creation of unit tests. The site should be available by the end of September 2023.',
+      'I was involved in all the front and back-end development, the creation and maintenance of the database, and the creation of unit tests.',
     fonctions: [
       {
         title: 'Introducing Aubay',
