@@ -19,7 +19,7 @@ export default {
   >
     <!--  -->
 
-    <img :src="prj.mainImage" alt="img-projet" loading="lazy" />
+    <img :src="prj.mainImage" alt="" role="presentation" aria-hidden="true" loading="lazy" />
     <div class="hidden">
       <div class="info">
         <div class="text">

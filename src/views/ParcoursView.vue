@@ -180,6 +180,7 @@ export default {
           href="https://drive.google.com/file/d/1oYb74V4GNN8yknTpi5SNoENS8QWXi7Y7/view?usp=sharing"
           target="_blank"
           class="ICI"
+          aria-label="lien vers le document officiel pour le résultat du TOEIC"
           >{{ $t('parcours.Certif1Doc') }}</a
         >
       </p>

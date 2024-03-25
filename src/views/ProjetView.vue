@@ -53,7 +53,7 @@ export default {
           <span>{{ $t('projet.objectif') }} :</span> {{ myPrj.objectif }}
         </p>
       </div>
-      <img :src="'/' + myPrj.mainImage" alt="img-projet" loading="lazy" />
+      <img :src="'/' + myPrj.mainImage" alt="image de présentation du projet" loading="lazy" />
     </section>
 
     <span class="trait"></span>
@@ -74,7 +74,12 @@ export default {
             <h3>{{ func.title }}</h3>
             <p>{{ func.description }}</p>
           </div>
-          <img v-if="func.image" :src="'/' + func.image" alt="img-func" loading="lazy" />
+          <img
+            v-if="func.image"
+            :src="'/' + func.image"
+            alt="visuel pour la fonction"
+            loading="lazy"
+          />
         </div>
         <div>
           <span class="points">---</span>
@@ -87,13 +92,27 @@ export default {
     <section class="liens">
       <p v-if="myPrj.lienSite">
         {{ $t('projet.le')
-        }}<a :href="myPrj.lienSite" target="_blank" class="ICI"> {{ $t('projet.lien') }}</a>
+        }}<a
+          :href="myPrj.lienSite"
+          target="_blank"
+          class="ICI"
+          aria-label="lien vers la page des projets"
+        >
+          {{ $t('projet.lien') }}</a
+        >
         {{ $t('projet.versEnLigne') }}
       </p>
 
       <p v-if="myPrj.lienGithub">
         {{ $t('projet.le') }}
-        <a :href="myPrj.lienGithub" target="_blank" class="ICI"> {{ $t('projet.lien') }}</a>
+        <a
+          :href="myPrj.lienGithub"
+          target="_blank"
+          class="ICI"
+          aria-label="lien vers la page GitHub du projet"
+        >
+          {{ $t('projet.lien') }}</a
+        >
         {{ $t('projet.versGithub') }}
       </p>
     </section>

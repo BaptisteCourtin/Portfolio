@@ -44,7 +44,15 @@ library.add(
           {{ $t('accueil.moi') }} <span class="name">Baptiste COURTIN</span>,
           <span class="dev">{{ $t('accueil.metier') }}</span>
         </p>
-        <p>{{ $t('accueil.photo') }} <font-awesome-icon icon="fa-solid fa-arrow-right" /></p>
+        <p>
+          {{ $t('accueil.photo') }}
+          <font-awesome-icon
+            icon="fa-solid fa-arrow-right"
+            alt=""
+            role="presentation"
+            aria-hidden="true"
+          />
+        </p>
       </div>
 
       <div class="box-tourne">
@@ -58,23 +66,72 @@ library.add(
       </p>
 
       <div class="monCV">
-        <font-awesome-icon class="fa-solid" icon="fa-arrow-right" />
-        <font-awesome-icon class="fa-solid" icon="fa-angles-down" />
-        <font-awesome-icon class="fa-solid" icon="fa-arrow-turn-down" />
-        <font-awesome-icon class="fa-solid" icon="fa-arrow-trend-down" />
+        <font-awesome-icon
+          class="fa-solid"
+          icon="fa-arrow-right"
+          alt=""
+          role="presentation"
+          aria-hidden="true"
+        />
+        <font-awesome-icon
+          class="fa-solid"
+          icon="fa-angles-down"
+          alt=""
+          role="presentation"
+          aria-hidden="true"
+        />
+        <font-awesome-icon
+          class="fa-solid"
+          icon="fa-arrow-turn-down"
+          alt=""
+          role="presentation"
+          aria-hidden="true"
+        />
+        <font-awesome-icon
+          class="fa-solid"
+          icon="fa-arrow-trend-down"
+          alt=""
+          role="presentation"
+          aria-hidden="true"
+        />
         <p class="entoureCV">
           <a
             href="https://drive.google.com/file/d/1gurHMCeUayjvGIYSBpYY24YAiUiw6At3/view?usp=drive_link"
             target="_blank"
+            aria-label="lien vers mon CV"
           >
             <span class="ICI">{{ $t('accueil.la') }}</span> {{ $t('accueil.cv') }}
           </a>
         </p>
-        <font-awesome-icon class="fa-solid" icon="fa-arrow-rotate-right" />
-        <font-awesome-icon class="fa-solid" icon="fa-arrow-trend-up" />
-        <span class="fa-solid with-bg">➜</span>
-        <font-awesome-icon class="fa-solid" icon="fa-location-arrow" />
-        <font-awesome-icon class="fa-solid" icon="fa-up-long" />
+        <font-awesome-icon
+          class="fa-solid"
+          icon="fa-arrow-rotate-right"
+          alt=""
+          role="presentation"
+          aria-hidden="true"
+        />
+        <font-awesome-icon
+          class="fa-solid"
+          icon="fa-arrow-trend-up"
+          alt=""
+          role="presentation"
+          aria-hidden="true"
+        />
+        <span class="fa-solid with-bg" alt="" role="presentation" aria-hidden="true">➜</span>
+        <font-awesome-icon
+          class="fa-solid"
+          icon="fa-location-arrow"
+          alt=""
+          role="presentation"
+          aria-hidden="true"
+        />
+        <font-awesome-icon
+          class="fa-solid"
+          icon="fa-up-long"
+          alt=""
+          role="presentation"
+          aria-hidden="true"
+        />
       </div>
     </div>
 

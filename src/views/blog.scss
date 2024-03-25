@@ -8,8 +8,17 @@
   text-align: center;
   width: 100%;
 
-  span {
-    text-decoration: underline;
-    font-style: italic;
+  article {
+    .paragraphe {
+      background-color: var(--background-soft);
+      border: 2px solid var(--gold);
+      padding: 1rem;
+      border-radius: 20px;
+
+      span {
+        text-decoration: underline;
+        font-style: italic;
+      }
+    }
   }
 }
